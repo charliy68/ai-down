@@ -78,7 +78,7 @@ a { color: inherit; text-decoration: none; }
   padding: 18px; cursor: pointer; text-align: left; font-family: inherit; color: var(--text);
   transition: transform .15s, border-color .15s; font-size: 14px; }
 .stage:hover { transform: translateY(-2px); }
-.stage.selected { border-color: var(--stage-c, var(--accent)); box-shadow: 0 0 0 1px var(--stage-c, var(--accent)); }
+.stage[data-selected="true"] { border-color: var(--stage-c, var(--accent)); box-shadow: 0 0 0 1px var(--stage-c, var(--accent)); }
 .stage-top { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; }
 .stage-top span { font-size: 11px; color: var(--text-dim); letter-spacing: .15em; }
 .stage-top strong { font-size: 24px; font-weight: 800; color: var(--stage-c, var(--text)); }
