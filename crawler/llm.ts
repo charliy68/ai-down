@@ -11,15 +11,22 @@ export function llmEnabled(): boolean {
   return Boolean(KEY);
 }
 
-async function chat(messages: { role: string; content: string }[]): Promise<string> {
-  const res = await fetch(`${BASE_URL}/chat/completions`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json", Authorization: `Bearer ${KEY}` },
-    body: JSON.stringify({ model: MODEL, messages, temperature: 0.3 }),
-  });
-  if (!res.ok) throw new Error(`MiniMax HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
-  const data = await res.json();
-  return data.choices[0].message.content;
+async function chat(messages: { role: string; content: string }[], timeoutMs = 30_000): Promise<string> {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), timeoutMs);
+  try {
+    const res = await fetch(`${BASE_URL}/chat/completions`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${KEY}` },
+      body: JSON.stringify({ model: MODEL, messages, temperature: 0.3 }),
+      signal: ctrl.signal,
+    });
+    if (!res.ok) throw new Error(`MiniMax HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
+    const data = await res.json();
+    return data.choices[0].message.content;
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
 async function chatWithRetry(messages: { role: string; content: string }[], retries = 2): Promise<string> {

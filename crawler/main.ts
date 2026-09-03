@@ -57,14 +57,16 @@ async function main() {
   const fresh = dedupeAndDiff(raws, existingUrls);
   const shortlisted = fresh; // 初筛即来源本身的相关性过滤（查询词已限定主题）
 
-  // ③+④ 加工与定级
-  const newSignals: Signal[] = [];
-  for (const raw of shortlisted.slice(0, 40)) { // 每日最多加工 40 条，控成本
+  // ③+④ 加工与定级（4 并发池）
+  const CONCURRENCY = 4;
+  const toProcess = shortlisted.slice(0, 40); // 每日最多加工 40 条，控成本
+
+  async function processOne(raw: RawItem): Promise<Signal> {
     const llm = await enrich(raw);
     const cap = ruleGrade(raw);
     const grade = clampGrade(llm?.suggested_grade, cap);
     const stage: Stage = llm?.suggested_stage && raw.primary ? llm.suggested_stage : ruleStage(raw);
-    newSignals.push({
+    const signal: Signal = {
       id: idForUrl(raw.url),
       title: raw.title,
       title_zh: llm?.title_zh ?? "",
@@ -89,8 +91,16 @@ async function main() {
       opportunity: llm?.opportunity ?? "",
       topics: llm?.topics?.length ? llm.topics : [STAGE_LABELS[stage]],
       ai_analyzed: Boolean(llm),
-    });
+    };
     process.stdout.write(`+ ${grade} ${raw.title.slice(0, 60)}\n`);
+    return signal;
+  }
+
+  const newSignals: Signal[] = [];
+  for (let i = 0; i < toProcess.length; i += CONCURRENCY) {
+    const batch = toProcess.slice(i, i + CONCURRENCY);
+    const batchResults = await Promise.all(batch.map(r => processOne(r)));
+    newSignals.push(...batchResults);
   }
 
   // 合并 + 截断 500 条
