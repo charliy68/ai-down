@@ -1,0 +1,7 @@
+node_modules/
+.next/
+.vercel
+data/site.json
+_site_data.json
+_extract_data.py
+*.log
