@@ -22,28 +22,35 @@ const METHODOLOGY: Record<Grade, string> = {
   D: "评论、二手转述或尚待验证的早期线索",
 };
 
-function idFor(raw: RawItem): string {
-  return Buffer.from(raw.url).toString("base64url").slice(0, 22);
+function idForUrl(url: string): string {
+  return Buffer.from(url).toString("base64url");
 }
 
 async function main() {
   const started = Date.now();
   const existing: SiteData = fs.existsSync(DATA_PATH)
-    ? JSON.parse(fs.readFileSync(DATA_PATH, "utf8"))
+    ? (() => {
+        const raw = JSON.parse(fs.readFileSync(DATA_PATH, "utf8"));
+        const parsed = siteDataSchema.safeParse(raw);
+        if (!parsed.success) {
+          console.error("库存数据损坏：", parsed.error.issues.slice(0, 10));
+          process.exit(1);
+        }
+        return parsed.data;
+      })()
     : { meta: {} as never, brief: { headline: "", summary: "", themes: [] }, stages: [], trends: [], items: [], sources: [], methodology: METHODOLOGY };
 
-  // ① 采集：并行抓全部源，失败记健康状态
-  const healths: SourceHealth[] = [];
-  const raws: RawItem[] = [];
-  await Promise.all(SOURCES.map(async s => {
+  // ① 采集：并行抓全部源，失败记健康状态（按 SOURCES 顺序固定排列）
+  const results = await Promise.all(SOURCES.map(async s => {
     try {
       const items = await s.fetch();
-      healths.push({ id: s.id, name: s.name, source_type: s.source_type, primary: s.primary, status: "ok", count: items.length, error: "" });
-      raws.push(...items);
+      return { health: { id: s.id, name: s.name, source_type: s.source_type, primary: s.primary, status: "ok" as const, count: items.length, error: "" }, items };
     } catch (e) {
-      healths.push({ id: s.id, name: s.name, source_type: s.source_type, primary: s.primary, status: "error", count: 0, error: String(e).slice(0, 200) });
+      return { health: { id: s.id, name: s.name, source_type: s.source_type, primary: s.primary, status: "error" as const, count: 0, error: String(e).slice(0, 200) }, items: [] as RawItem[] };
     }
   }));
+  const healths = results.map(r => r.health);
+  const raws = results.flatMap(r => r.items);
 
   // ② 去重：与库存 URL 对比筛新增
   const existingUrls = new Set(existing.items.map(s => s.url));
@@ -58,7 +65,7 @@ async function main() {
     const grade = clampGrade(llm?.suggested_grade, cap);
     const stage: Stage = llm?.suggested_stage && raw.primary ? llm.suggested_stage : ruleStage(raw);
     newSignals.push({
-      id: idFor(raw),
+      id: idForUrl(raw.url),
       title: raw.title,
       title_zh: llm?.title_zh ?? "",
       url: raw.url,
@@ -90,6 +97,9 @@ async function main() {
   const items = [...newSignals, ...existing.items]
     .sort((a, b) => b.published_at.localeCompare(a.published_at))
     .slice(0, MAX_ITEMS);
+
+  // 重映射全部 ID 为完整 base64url（修复历史截断导致的同源碰撞）
+  for (const s of items) s.id = idForUrl(s.url);
 
   // 统计与趋势（近 14 天 vs 前 14 天，按 topics 计数）
   const now = Date.now();

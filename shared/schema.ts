@@ -59,7 +59,8 @@ export const siteDataSchema = z.object({
   items: z.array(signalSchema).max(500),
   sources: z.array(z.object({
     id: z.string(), name: z.string(),
-    source_type: z.string(), primary: z.boolean(),
+    source_type: z.enum(["paper", "curated_papers", "product_update", "customer_case", "news", "community", "agent_project"]),
+    primary: z.boolean(),
     status: z.enum(["ok", "error", "not_run"]),
     count: z.number(), error: z.string(),
   })),
