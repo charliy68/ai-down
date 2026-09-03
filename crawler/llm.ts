@@ -1,5 +1,8 @@
 import type { RawItem, Signal, Grade, Stage } from "../shared/types";
 
+const VALID_GRADES = new Set(["A", "B", "C", "D"]);
+const VALID_STAGES = new Set(["research", "product", "pilot", "production", "scale"]);
+
 const BASE_URL = process.env.MINIMAX_BASE_URL ?? "https://api.minimaxi.com/v1";
 const MODEL = process.env.MINIMAX_MODEL ?? "MiniMax-M3";
 const KEY = process.env.MINIMAX_API_KEY;
@@ -58,8 +61,10 @@ export async function enrich(raw: RawItem): Promise<Partial<Signal> & { suggeste
       metric_label: String(j.metric_label ?? ""),
       opportunity: String(j.opportunity ?? ""),
       topics: Array.isArray(j.topics) ? j.topics.map(String).slice(0, 4) : [],
-      ...(j.suggested_grade ? { suggested_grade: j.suggested_grade as Grade } : {}),
-      ...(j.suggested_stage ? { suggested_stage: j.suggested_stage as Stage } : {}),
+      ...(typeof j.suggested_grade === "string" && VALID_GRADES.has(j.suggested_grade)
+        ? { suggested_grade: j.suggested_grade as Grade } : {}),
+      ...(typeof j.suggested_stage === "string" && VALID_STAGES.has(j.suggested_stage)
+        ? { suggested_stage: j.suggested_stage as Stage } : {}),
     };
   } catch {
     return null; // 失败降级，不阻塞管线
