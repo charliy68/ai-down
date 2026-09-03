@@ -1,0 +1,42 @@
+name: daily-crawl
+
+on:
+  schedule:
+    - cron: "30 23 * * *" # UTC 23:30 = 北京 07:30
+  workflow_dispatch: {}   # 手动触发
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Run crawler
+        env:
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+        run: npm run crawl
+      - name: Commit and push if changed
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          if git diff --quiet data/site.json; then
+            echo "no change, skip"
+          else
+            git add data/site.json
+            git commit -m "data: 自动更新 $(date -u +%Y-%m-%dT%H:%M)Z"
+            git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          fi
