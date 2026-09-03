@@ -4,3 +4,5 @@ node_modules/
 _site_data.json
 _extract_data.py
 *.log
+out/
+tsconfig.tsbuildinfo
