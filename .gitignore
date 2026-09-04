@@ -6,3 +6,5 @@ _extract_data.py
 *.log
 out/
 tsconfig.tsbuildinfo
+.claude/
+.superpowers/
