@@ -1,21 +1,21 @@
 {
   "meta": {
     "name": "AI 落地雷达",
-    "generated_at": "2026-09-04T07:26:35.467Z",
+    "generated_at": "2026-09-05T01:19:45.008Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
-    "raw_count": 166,
-    "shortlisted_count": 43,
-    "inserted_count": 40,
-    "total_items": 228,
+    "raw_count": 116,
+    "shortlisted_count": 12,
+    "inserted_count": 12,
+    "total_items": 240,
     "strong_items": 8,
     "paper_items": 54,
-    "source_success": 8,
+    "source_success": 6,
     "source_attempted": 8,
-    "duration_seconds": 87
+    "duration_seconds": 62.5
   },
   "brief": {
     "headline": "生产信号集中在「AI Agent 项目」",
@@ -31,12 +31,12 @@
     {
       "key": "research",
       "label": "论文/技术",
-      "count": 100
+      "count": 104
     },
     {
       "key": "product",
       "label": "产品发布",
-      "count": 105
+      "count": 111
     },
     {
       "key": "pilot",
@@ -51,7 +51,7 @@
     {
       "key": "scale",
       "label": "规模化",
-      "count": 3
+      "count": 5
     }
   ],
   "trends": [
@@ -72,8 +72,8 @@
     {
       "label": "通用企业工作流",
       "current": 17,
-      "previous": 6,
-      "delta": 11,
+      "previous": 5,
+      "delta": 12,
       "direction": "up"
     },
     {
@@ -99,6 +99,258 @@
     }
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL2ZlZGVyLWNyL0FJSGF3aw",
+      "title": "feder-cr/AIHawk",
+      "title_zh": "",
+      "url": "https://github.com/feder-cr/AIHawk",
+      "published_at": "2026-09-05T01:17:59Z",
+      "source_id": "github-agent-projects",
+      "source_name": "GitHub · 活跃 AI Agent 项目",
+      "source_type": "agent_project",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Open-source AI browser agent for web automation: a web browsing agent and computer-use agent in plain English. Browser MCP for Claude Code and Gemini CLI. ★30309，最近推送 2026-09-05",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2RlcGxveS1hLW11bHRpbW9kYWwtd2hhdHNhcHAtb3JkZXJpbmctYXNzaXN0YW50LXdpdGgtYW1hem9uLWJlZHJvY2stYWdlbnRjb3Jl",
+      "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore",
+      "published_at": "2026-09-04T21:45:52.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源；场景或采用方明确",
+      "summary": "Learn how to deploy a multimodal WhatsApp ordering assistant that takes customer orders through text, voice notes, and real-time voice calls on a single business number, built on Amazon Bedrock AgentCore with Amazon Nova 2. The channel and ordering layers stay separate, and one shared memory recognizes each customer across all three channels.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL2xhbmdjaGFpbi1haS9sYW5nY2hhaW4vcmVsZWFzZXMvdGFnL2xhbmdjaGFpbi1jb3JlJTNEJTNEMS42LjI",
+      "title": "langchain-ai/langchain langchain-core==1.6.2",
+      "title_zh": "",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.2",
+      "published_at": "2026-09-04T21:29:42Z",
+      "source_id": "github-agent-releases",
+      "source_name": "GitHub · Agent 框架版本发布",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Changes since langchain-core==1.6.1 release(core): 1.6.2 (40209) feat(openai): support async tools (40208) chore(deps): bump mistune from 3.3.0 to 3.3.3 in /libs/core (40150) chore(deps): bump tornado from 6.5.7 to 6.5.8 in /libs/core (40113) fix(core): avoid mutation in google-genai standard content (40023) fix(core): avoid mutation in bedrock converse standard content (40022)",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2Rlc2lnbmluZy1saWZlY3ljbGUtcG9saWNpZXMtZm9yLWFnZW50Y29yZS1tZW1vcnk",
+      "title": "Designing lifecycle policies for AgentCore memory",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory",
+      "published_at": "2026-09-04T17:20:04.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Long-running AI agents accumulate outdated memories that degrade quality and create compliance risk. Learn how to design memory lifecycle policies for Amazon Bedrock AgentCore: scoring, consolidating, and pruning agent memories on a nightly AWS Step Functions workflow, with a deployable AWS CDK stack.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2J1aWxkLWEtcGh5c2ljYWwtYWktbW9kZWwtZmFjdG9yeS13aXRoLW52aWRpYS1jb3Ntb3MtMy1vbi1zYWdlbWFrZXItaHlwZXJwb2Q",
+      "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod",
+      "published_at": "2026-09-04T16:16:00.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Building a Physical AI system takes a continuous pipeline, not a single training job. This post shows how to run that model factory (synthetic data generation, post-training, and closed-loop evaluation with NVIDIA Cosmos 3) on a persistent, resilient Amazon SageMaker HyperPod cluster on Amazon EKS, with GPU goodput as the metric that matters.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL3J1bi1hZ2VudC1kcml2ZW4tYW1hem9uLXNhZ2VtYWtlci1oeXBlcnBvZC1vcGVyYXRpb25zLXdpdGgtaW5zdGFudHN0YXJ0",
+      "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart",
+      "published_at": "2026-09-04T16:12:17.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod. It drives the same guarded operations through both a web interface and an AI agent, turning cluster bootstrap, capacity, training, inference, and storage into dependable, agent-driven infrastructure.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2N1c3RvbWl6aW5nLXlvdXIta25vd2xlZGdlLWJhc2Utb24tYW1hem9uLWJlZHJvY2stZm9yLWxhcmdlLWFuZC1jb21wbGV4LWRvY3VtZW50cy11c2luZy1hbWF6b24tdGV4dHJhY3Q",
+      "title": "Customizing your knowledge base on Amazon Bedrock for large and complex documents using Amazon Textract",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/customizing-your-knowledge-base-on-amazon-bedrock-for-large-and-complex-documents-using-amazon-textract",
+      "published_at": "2026-09-04T16:08:10.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "scale",
+      "evidence_grade": "C",
+      "evidence_score": 70,
+      "evidence_reason": "一手来源；规模化信号；场景或采用方明确",
+      "summary": "Learn how to customize an Amazon Bedrock knowledge base for large, complex documents by combining the high-accuracy text extraction of Amazon Textract with the generative AI of Amazon Bedrock. This post shows how to ingest and preprocess PDFs and images, then query utility bills at scale for faster, more accurate customer interactions.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "规模化"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2hvdy1pbnR1aXQtYnVpbHQtYW4tYWdlbnRpYy1kaXNhc3Rlci1yZWNvdmVyeS1hc3Npc3RhbnQtd2l0aC1hbWF6b24tYmVkcm9jaw",
+      "title": "How Intuit built an agentic disaster recovery assistant with Amazon Bedrock",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock",
+      "published_at": "2026-09-04T16:06:01.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "scale",
+      "evidence_grade": "C",
+      "evidence_score": 72,
+      "evidence_reason": "一手来源；进入生产或真实流量；规模化信号",
+      "summary": "Disaster recovery at scale is hard. Learn how Intuit built EWOK Agent, an agentic disaster recovery assistant on Amazon Bedrock that lets on-call engineers run production failovers from a plain-language request while keeping every action audited, policy-compliant, and safe.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "规模化"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL2NyZXdBSUluYy9jcmV3QUkvcmVsZWFzZXMvdGFnLzEuMTUuMjA",
+      "title": "crewAIInc/crewAI 1.15.20",
+      "title_zh": "",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.20",
+      "published_at": "2026-09-04T12:42:21Z",
+      "source_id": "github-agent-releases",
+      "source_name": "GitHub · Agent 框架版本发布",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": " What's Changed Bug Fixes - Fix legacy platform tool alias discovery Documentation - Update snapshot and changelog for v1.15.19 Contributors @joaomdmoura, @vinibrsl",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
     {
       "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDkuMDQxNTl2MQ",
       "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
@@ -6655,6 +6907,90 @@
         "论文/技术"
       ],
       "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL3BhdGNoZWQtY29kZXMvcGF0Y2h3b3Jr",
+      "title": "Show HN: Patchwork – Open-source framework to automate development gruntwork",
+      "title_zh": "",
+      "url": "https://github.com/patched-codes/patchwork",
+      "published_at": "2024-07-26T20:34:53.000Z",
+      "source_id": "hn-enterprise-ai",
+      "source_name": "Hacker News · 产品与开发者反馈",
+      "source_type": "community",
+      "primary_source": false,
+      "stage": "research",
+      "evidence_grade": "D",
+      "evidence_score": 55,
+      "evidence_reason": "二手转述或早期线索",
+      "summary": "116 分 24 评论",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9uZXdzLnljb21iaW5hdG9yLmNvbS9pdGVtP2lkPTQxMDY5OTA5",
+      "title": "Launch HN: Undermind (YC S24) – AI agent for discovering scientific papers",
+      "title_zh": "",
+      "url": "https://news.ycombinator.com/item?id=41069909",
+      "published_at": "2024-07-25T15:36:57.000Z",
+      "source_id": "hn-enterprise-ai",
+      "source_name": "Hacker News · 产品与开发者反馈",
+      "source_type": "community",
+      "primary_source": false,
+      "stage": "research",
+      "evidence_grade": "D",
+      "evidence_score": 55,
+      "evidence_reason": "二手转述或早期线索",
+      "summary": "292 分 126 评论",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9yaXZldC5pcm9uY2xhZGFwcC5jb20v",
+      "title": "Show HN: Rivet – open-source AI Agent dev env with real-world applications",
+      "title_zh": "",
+      "url": "https://rivet.ironcladapp.com/",
+      "published_at": "2023-09-08T13:29:05.000Z",
+      "source_id": "hn-enterprise-ai",
+      "source_name": "Hacker News · 产品与开发者反馈",
+      "source_type": "community",
+      "primary_source": false,
+      "stage": "research",
+      "evidence_grade": "D",
+      "evidence_score": 55,
+      "evidence_reason": "二手转述或早期线索",
+      "summary": "176 分 30 评论",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
     }
   ],
   "sources": [
@@ -6663,18 +6999,18 @@
       "name": "arXiv · 企业 Agent / 生产部署",
       "source_type": "paper",
       "primary": true,
-      "status": "ok",
-      "count": 25,
-      "error": ""
+      "status": "error",
+      "count": 0,
+      "error": "Error: HTTP 429 https://export.arxiv.org/api/query?search_query=all%3A%22enterprise%22%20AND%20all%3A%22agent%22&sortBy=submittedDate&sortOrder=descending&max_results=25"
     },
     {
       "id": "arxiv-ai-workflow",
       "name": "arXiv · AI 与业务工作流",
       "source_type": "paper",
       "primary": true,
-      "status": "ok",
-      "count": 25,
-      "error": ""
+      "status": "error",
+      "count": 0,
+      "error": "AbortError: This operation was aborted"
     },
     {
       "id": "github-agent-projects",
