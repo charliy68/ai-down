@@ -1,21 +1,21 @@
 {
   "meta": {
     "name": "AI 落地雷达",
-    "generated_at": "2026-09-05T01:19:45.008Z",
+    "generated_at": "2026-09-06T01:16:56.398Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
-    "raw_count": 116,
-    "shortlisted_count": 12,
-    "inserted_count": 12,
-    "total_items": 240,
+    "raw_count": 166,
+    "shortlisted_count": 1,
+    "inserted_count": 1,
+    "total_items": 241,
     "strong_items": 8,
     "paper_items": 54,
-    "source_success": 6,
+    "source_success": 8,
     "source_attempted": 8,
-    "duration_seconds": 62.5
+    "duration_seconds": 40.8
   },
   "brief": {
     "headline": "生产信号集中在「AI Agent 项目」",
@@ -36,7 +36,7 @@
     {
       "key": "product",
       "label": "产品发布",
-      "count": 111
+      "count": 112
     },
     {
       "key": "pilot",
@@ -730,6 +730,34 @@
       "evidence_score": 70,
       "evidence_reason": "一手来源；披露量化指标",
       "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2dwdC02LWFzdHJh",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "title_zh": "",
+      "url": "https://openai.com/index/gpt-6-astra",
+      "published_at": "2026-09-03T11:00:00.000Z",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
       "why_it_matters": "",
       "method": "",
       "result": "",
@@ -6999,18 +7027,18 @@
       "name": "arXiv · 企业 Agent / 生产部署",
       "source_type": "paper",
       "primary": true,
-      "status": "error",
-      "count": 0,
-      "error": "Error: HTTP 429 https://export.arxiv.org/api/query?search_query=all%3A%22enterprise%22%20AND%20all%3A%22agent%22&sortBy=submittedDate&sortOrder=descending&max_results=25"
+      "status": "ok",
+      "count": 25,
+      "error": ""
     },
     {
       "id": "arxiv-ai-workflow",
       "name": "arXiv · AI 与业务工作流",
       "source_type": "paper",
       "primary": true,
-      "status": "error",
-      "count": 0,
-      "error": "AbortError: This operation was aborted"
+      "status": "ok",
+      "count": 25,
+      "error": ""
     },
     {
       "id": "github-agent-projects",
