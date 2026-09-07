@@ -1,21 +1,21 @@
 {
   "meta": {
     "name": "AI 落地雷达",
-    "generated_at": "2026-09-06T01:16:56.398Z",
+    "generated_at": "2026-09-07T01:15:20.415Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
-    "raw_count": 166,
-    "shortlisted_count": 1,
-    "inserted_count": 1,
-    "total_items": 241,
+    "raw_count": 116,
+    "shortlisted_count": 2,
+    "inserted_count": 2,
+    "total_items": 243,
     "strong_items": 8,
     "paper_items": 54,
-    "source_success": 8,
+    "source_success": 6,
     "source_attempted": 8,
-    "duration_seconds": 40.8
+    "duration_seconds": 48.5
   },
   "brief": {
     "headline": "生产信号集中在「AI Agent 项目」",
@@ -36,7 +36,7 @@
     {
       "key": "product",
       "label": "产品发布",
-      "count": 112
+      "count": 114
     },
     {
       "key": "pilot",
@@ -99,6 +99,62 @@
     }
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2FuLWFsaWVuLW1pbmQ",
+      "title": "An Alien Mind",
+      "title_zh": "",
+      "url": "https://openai.com/index/an-alien-mind",
+      "published_at": "2026-09-06T09:00:00.000Z",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3Jlc2VhcmNoLWFjY2VsZXJhdGlvbi12aWV3LWluc2lkZS1vcGVuYWk",
+      "title": "Research acceleration: The view inside OpenAI",
+      "title_zh": "",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "published_at": "2026-09-06T08:00:00.000Z",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2ZlZGVyLWNyL0FJSGF3aw",
       "title": "feder-cr/AIHawk",
@@ -7027,18 +7083,18 @@
       "name": "arXiv · 企业 Agent / 生产部署",
       "source_type": "paper",
       "primary": true,
-      "status": "ok",
-      "count": 25,
-      "error": ""
+      "status": "error",
+      "count": 0,
+      "error": "AbortError: This operation was aborted"
     },
     {
       "id": "arxiv-ai-workflow",
       "name": "arXiv · AI 与业务工作流",
       "source_type": "paper",
       "primary": true,
-      "status": "ok",
-      "count": 25,
-      "error": ""
+      "status": "error",
+      "count": 0,
+      "error": "Error: HTTP 429 https://export.arxiv.org/api/query?search_query=all%3A%22LLM%22%20AND%20(all%3A%22workflow%22%20OR%20all%3A%22enterprise%22)&sortBy=submittedDate&sortOrder=descending&max_results=25"
     },
     {
       "id": "github-agent-projects",
