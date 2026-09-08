@@ -1,21 +1,21 @@
 {
   "meta": {
     "name": "AI 落地雷达",
-    "generated_at": "2026-09-07T01:15:20.415Z",
+    "generated_at": "2026-09-08T01:21:34.544Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
     "raw_count": 116,
-    "shortlisted_count": 2,
-    "inserted_count": 2,
-    "total_items": 243,
+    "shortlisted_count": 1,
+    "inserted_count": 1,
+    "total_items": 244,
     "strong_items": 8,
     "paper_items": 54,
     "source_success": 6,
     "source_attempted": 8,
-    "duration_seconds": 48.5
+    "duration_seconds": 47.3
   },
   "brief": {
     "headline": "生产信号集中在「AI Agent 项目」",
@@ -36,7 +36,7 @@
     {
       "key": "product",
       "label": "产品发布",
-      "count": 114
+      "count": 115
     },
     {
       "key": "pilot",
@@ -72,8 +72,8 @@
     {
       "label": "通用企业工作流",
       "current": 17,
-      "previous": 5,
-      "delta": 12,
+      "previous": 4,
+      "delta": 13,
       "direction": "up"
     },
     {
@@ -93,12 +93,40 @@
     {
       "label": "知识与办公",
       "current": 9,
-      "previous": 2,
-      "delta": 7,
+      "previous": 1,
+      "delta": 8,
       "direction": "up"
     }
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3N1cHBvcnRpbmctaW5kZXBlbmRlbnQtam91cm5hbGlzbS1pbi11a3JhaW5l",
+      "title": "Supporting independent journalism in Ukraine",
+      "title_zh": "",
+      "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "published_at": "2026-09-07T00:00:00.000Z",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
     {
       "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2FuLWFsaWVuLW1pbmQ",
       "title": "An Alien Mind",
@@ -7085,7 +7113,7 @@
       "primary": true,
       "status": "error",
       "count": 0,
-      "error": "AbortError: This operation was aborted"
+      "error": "Error: HTTP 429 https://export.arxiv.org/api/query?search_query=all%3A%22enterprise%22%20AND%20all%3A%22agent%22&sortBy=submittedDate&sortOrder=descending&max_results=25"
     },
     {
       "id": "arxiv-ai-workflow",
@@ -7094,7 +7122,7 @@
       "primary": true,
       "status": "error",
       "count": 0,
-      "error": "Error: HTTP 429 https://export.arxiv.org/api/query?search_query=all%3A%22LLM%22%20AND%20(all%3A%22workflow%22%20OR%20all%3A%22enterprise%22)&sortBy=submittedDate&sortOrder=descending&max_results=25"
+      "error": "AbortError: This operation was aborted"
     },
     {
       "id": "github-agent-projects",
