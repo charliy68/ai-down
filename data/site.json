@@ -1,30 +1,30 @@
 {
   "meta": {
     "name": "AI 落地雷达",
-    "generated_at": "2026-09-11T01:24:13.611Z",
+    "generated_at": "2026-09-12T01:26:18.338Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
-    "raw_count": 166,
-    "shortlisted_count": 30,
-    "inserted_count": 30,
-    "total_items": 352,
-    "strong_items": 16,
+    "raw_count": 116,
+    "shortlisted_count": 7,
+    "inserted_count": 7,
+    "total_items": 359,
+    "strong_items": 17,
     "paper_items": 117,
-    "source_success": 8,
+    "source_success": 6,
     "source_attempted": 8,
-    "duration_seconds": 74.3
+    "duration_seconds": 55.2
   },
   "brief": {
     "headline": "生产信号集中在「AI Agent 项目」",
-    "summary": "本期有 16 条生产或规模化信号达到 A/B 级。",
+    "summary": "本期有 17 条生产或规模化信号达到 A/B 级。",
     "themes": [
       "AI Agent 项目",
       "跨行业",
       "研发与数据",
-      "通用企业工作流"
+      "软件与互联网"
     ]
   },
   "stages": [
@@ -36,7 +36,7 @@
     {
       "key": "product",
       "label": "产品发布",
-      "count": 159
+      "count": 163
     },
     {
       "key": "pilot",
@@ -46,7 +46,7 @@
     {
       "key": "production",
       "label": "生产部署",
-      "count": 29
+      "count": 32
     },
     {
       "key": "scale",
@@ -57,16 +57,16 @@
   "trends": [
     {
       "label": "AI Agent 项目",
-      "current": 31,
-      "previous": 6,
-      "delta": 25,
+      "current": 30,
+      "previous": 7,
+      "delta": 23,
       "direction": "up"
     },
     {
       "label": "跨行业",
-      "current": 20,
-      "previous": 7,
-      "delta": 13,
+      "current": 19,
+      "previous": 8,
+      "delta": 11,
       "direction": "up"
     },
     {
@@ -77,13 +77,6 @@
       "direction": "up"
     },
     {
-      "label": "通用企业工作流",
-      "current": 15,
-      "previous": 4,
-      "delta": 11,
-      "direction": "up"
-    },
-    {
       "label": "软件与互联网",
       "current": 14,
       "previous": 2,
@@ -91,14 +84,217 @@
       "direction": "up"
     },
     {
+      "label": "通用企业工作流",
+      "current": 14,
+      "previous": 5,
+      "delta": 9,
+      "direction": "up"
+    },
+    {
       "label": "企业服务",
-      "current": 7,
-      "previous": 1,
-      "delta": 6,
+      "current": 6,
+      "previous": 2,
+      "delta": 4,
       "direction": "up"
     }
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3BlcnBsZXhpdHktaW1wcm92aW5nLWFjY3VyYWN5LXdpdGgtYXN0cmE",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "title_zh": "",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "published_at": "2026-09-14T00:00:00.000Z",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "production",
+      "evidence_grade": "C",
+      "evidence_score": 69,
+      "evidence_reason": "一手来源；进入生产或真实流量",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "生产部署"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL21vbml0b3JpbmctcHJvZHVjdGlvbi1hZ2VudC1saWZlY3ljbGUtd2l0aC1hd3MtZGV2b3BzLWFnZW50LWFuZC1hZ2VudGNvcmUtZXZhbHVhdGlvbnM",
+      "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations",
+      "published_at": "2026-09-11T18:26:38.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "production",
+      "evidence_grade": "C",
+      "evidence_score": 69,
+      "evidence_reason": "一手来源；进入生产或真实流量",
+      "summary": "Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Amazon Bedrock AgentCore Evaluations for continuous quality scoring and AWS DevOps Agent for autonomous infrastructure investigation, shown on a four-agent airline reservation system.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "生产部署"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2JleW9uZC10aGUtcHJpY2UtcGVyLXRva2VuLWNob29zaW5nLXRoZS1yaWdodC1vcGVuYWktbW9kZWwtb24tYW1hem9uLWJlZHJvY2stZm9yLXlvdXItd29ya2xvYWQ",
+      "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload",
+      "published_at": "2026-09-11T18:24:38.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "production",
+      "evidence_grade": "A",
+      "evidence_score": 92,
+      "evidence_reason": "一手来源；披露量化指标；进入生产或真实流量",
+      "summary": "Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source benchmarking harness that measures cost per correct answer, agent trajectory cost, and rubric-graded deliverable quality across OpenAI models on Amazon Bedrock.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "生产部署"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2J1aWxkLWludGVyYWN0aXZlLW1jcC1hcHBzLXVzaW5nLWFtYXpvbi1iZWRyb2NrLWFnZW50Y29yZQ",
+      "title": "Build interactive MCP Apps using Amazon Bedrock AgentCore",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore",
+      "published_at": "2026-09-11T18:23:17.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Learn how to build and deploy an MCP App with interactive HTML widgets on Amazon Bedrock AgentCore. Because MCP Apps is a host-agnostic standard, the same server delivers the same rich experience across AI hosts like ChatGPT and Claude that support the extension.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL2xhbmdjaGFpbi1haS9sYW5nY2hhaW4vcmVsZWFzZXMvdGFnL2xhbmdjaGFpbi1jb3JlJTNEJTNEMS42LjM",
+      "title": "langchain-ai/langchain langchain-core==1.6.3",
+      "title_zh": "",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.3",
+      "published_at": "2026-09-11T17:38:02Z",
+      "source_id": "github-agent-releases",
+      "source_name": "GitHub · Agent 框架版本发布",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Changes since langchain-core==1.6.2 release(core): 1.6.3 (40407) feat(core): Allow model name and provider tracing metadata override based on gateway response (40406) test(core): cover the deprecated .text() access path (40243) docs(core): remove stale Args/Raises entries from FileCallbackHandler._write and ChatGeneration.set_text (40211)",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NvZ25pdGlvbi1kZXZpbi10ZXN0aW5nLXdpdGgtYXN0cmE",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "title_zh": "",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "published_at": "2026-09-11T16:00:00.000Z",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3NjYWxpbmctc3RvcmFnZS1vbmUtYmlsbGlvbi11c2Vycy1wYXJ0LW9uZQ",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "title_zh": "",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "published_at": "2026-09-11T10:00:00.000Z",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 70,
+      "evidence_reason": "一手来源；披露量化指标",
+      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
     {
       "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL3JlZHVjZS1sbG0tbGF0ZW5jeS13aXRoLXByZWZpeC1hd2FyZS1yb3V0aW5nLW9uLWFtYXpvbi1zYWdlbWFrZXItaW5mZXJlbmNl",
       "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
@@ -10135,18 +10331,18 @@
       "name": "arXiv · 企业 Agent / 生产部署",
       "source_type": "paper",
       "primary": true,
-      "status": "ok",
-      "count": 25,
-      "error": ""
+      "status": "error",
+      "count": 0,
+      "error": "AbortError: This operation was aborted"
     },
     {
       "id": "arxiv-ai-workflow",
       "name": "arXiv · AI 与业务工作流",
       "source_type": "paper",
       "primary": true,
-      "status": "ok",
-      "count": 25,
-      "error": ""
+      "status": "error",
+      "count": 0,
+      "error": "Error: HTTP 429 https://export.arxiv.org/api/query?search_query=all%3A%22LLM%22%20AND%20(all%3A%22workflow%22%20OR%20all%3A%22enterprise%22)&sortBy=submittedDate&sortOrder=descending&max_results=25"
     },
     {
       "id": "github-agent-projects",
