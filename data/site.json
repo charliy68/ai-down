@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "AI 落地雷达",
-    "generated_at": "2026-09-13T01:21:08.207Z",
+    "generated_at": "2026-09-14T01:27:11.904Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
@@ -15,7 +15,7 @@
     "paper_items": 117,
     "source_success": 6,
     "source_attempted": 8,
-    "duration_seconds": 39.3
+    "duration_seconds": 10.2
   },
   "brief": {
     "headline": "生产信号集中在「AI Agent 项目」",
@@ -72,15 +72,15 @@
     {
       "label": "研发与数据",
       "current": 15,
-      "previous": 2,
-      "delta": 13,
+      "previous": 1,
+      "delta": 14,
       "direction": "up"
     },
     {
       "label": "软件与互联网",
       "current": 14,
-      "previous": 2,
-      "delta": 12,
+      "previous": 1,
+      "delta": 13,
       "direction": "up"
     },
     {
@@ -10333,7 +10333,7 @@
       "primary": true,
       "status": "error",
       "count": 0,
-      "error": "AbortError: This operation was aborted"
+      "error": "Error: HTTP 429 https://export.arxiv.org/api/query?search_query=all%3A%22enterprise%22%20AND%20all%3A%22agent%22&sortBy=submittedDate&sortOrder=descending&max_results=25"
     },
     {
       "id": "arxiv-ai-workflow",
@@ -10342,7 +10342,7 @@
       "primary": true,
       "status": "error",
       "count": 0,
-      "error": "AbortError: This operation was aborted"
+      "error": "Error: HTTP 429 https://export.arxiv.org/api/query?search_query=all%3A%22LLM%22%20AND%20(all%3A%22workflow%22%20OR%20all%3A%22enterprise%22)&sortBy=submittedDate&sortOrder=descending&max_results=25"
     },
     {
       "id": "github-agent-projects",
