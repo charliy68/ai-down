@@ -1,25 +1,25 @@
 {
   "meta": {
     "name": "AI 落地雷达",
-    "generated_at": "2026-09-14T01:27:11.904Z",
+    "generated_at": "2026-09-15T01:48:30.890Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
     "raw_count": 116,
-    "shortlisted_count": 0,
-    "inserted_count": 0,
-    "total_items": 359,
-    "strong_items": 17,
+    "shortlisted_count": 8,
+    "inserted_count": 8,
+    "total_items": 367,
+    "strong_items": 18,
     "paper_items": 117,
     "source_success": 6,
     "source_attempted": 8,
-    "duration_seconds": 10.2
+    "duration_seconds": 40.6
   },
   "brief": {
     "headline": "生产信号集中在「AI Agent 项目」",
-    "summary": "本期有 17 条生产或规模化信号达到 A/B 级。",
+    "summary": "本期有 18 条生产或规模化信号达到 A/B 级。",
     "themes": [
       "AI Agent 项目",
       "跨行业",
@@ -36,7 +36,7 @@
     {
       "key": "product",
       "label": "产品发布",
-      "count": 163
+      "count": 170
     },
     {
       "key": "pilot",
@@ -51,7 +51,7 @@
     {
       "key": "scale",
       "label": "规模化",
-      "count": 5
+      "count": 6
     }
   ],
   "trends": [
@@ -64,9 +64,9 @@
     },
     {
       "label": "跨行业",
-      "current": 19,
-      "previous": 8,
-      "delta": 11,
+      "current": 17,
+      "previous": 10,
+      "delta": 7,
       "direction": "up"
     },
     {
@@ -85,20 +85,244 @@
     },
     {
       "label": "通用企业工作流",
-      "current": 14,
-      "previous": 5,
-      "delta": 9,
+      "current": 12,
+      "previous": 6,
+      "delta": 6,
       "direction": "up"
     },
     {
-      "label": "企业服务",
-      "current": 6,
-      "previous": 2,
-      "delta": 4,
-      "direction": "up"
+      "label": "运营与供应链",
+      "current": 4,
+      "previous": 4,
+      "delta": 0,
+      "direction": "flat"
     }
   ],
   "items": [
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2Fibm9ybWFsLWFpLWFtYXpvbi1iZWRyb2NrLWFnZW50Y29yZS1mb3ItYWdlbnRpYy1lbWFpbC1zZWN1cml0eS1hdC1zY2FsZQ",
+      "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale",
+      "published_at": "2026-09-14T21:22:45.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "scale",
+      "evidence_grade": "A",
+      "evidence_score": 95,
+      "evidence_reason": "一手来源；披露量化指标；进入生产或真实流量；规模化信号",
+      "summary": "Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-message scale, plus the sandbox design decisions and practical lessons for builders deploying Code Interpreter in production.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "规模化"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL21hbmFnZS1lbmQtdXNlci1vYXV0aC1jb25zZW50LWZvci1haS1hZ2VudHMtd2l0aC1hbWF6b24tYmVkcm9jay1hZ2VudGNvcmU",
+      "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore",
+      "published_at": "2026-09-14T20:35:45.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks through provisioning a portal, configuring GitHub and Slack 3LO targets, and the end-user consent flow, and shows how to review activity in AWS CloudTrail.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2FpL2RpYWxvZ3Vlcy1jaHJpc3RpbmEta29jaA",
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "title_zh": "",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch",
+      "published_at": "2026-09-14T19:00:00.000Z",
+      "source_id": "google-ai-blog",
+      "source_name": "Google AI Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2RldmVsb3BlcnMtdG9vbHMvZGV2ZmVzdDIwMjY",
+      "title": "DevFest is back",
+      "title_zh": "",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026",
+      "published_at": "2026-09-14T16:00:00.000Z",
+      "source_id": "google-ai-blog",
+      "source_name": "Google AI Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2hvdy1uaW50aC13YXZlLWJ1aWx0LWFpLXBvd2VyZWQtb3Blbi1maW5hbmNlLW9uYm9hcmRpbmctb24tYW1hem9uLWJlZHJvY2s",
+      "title": "How Ninth Wave built AI-powered open finance onboarding on Amazon Bedrock",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock",
+      "published_at": "2026-09-14T15:58:57.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Learn how Ninth Wave built Compass, a multi-agent AI onboarding assistant on Amazon Bedrock AgentCore that validates bank APIs against Financial Data Exchange (FDX) standards, scores compliance, and compresses open finance onboarding from weeks to minutes while meeting SOC 2 and PCI DSS requirements.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL3RoZS1nZW5lcmF0aXZlLWFpLWN1c3RvbWl6YXRpb24tc3BlY3RydW0tZnJvbS1wcm9tcHQtZW5naW5lZXJpbmctdG8tY3VzdG9tLW1vZGVscy1vbi1hd3M",
+      "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws",
+      "published_at": "2026-09-14T15:47:12.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nova Forge. Start simple and escalate only when you must.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2F1dG9tYXRlLXJlcGxlbmlzaG1lbnQtd2l0aC1tbWYtZGF0YWJyaWNrcy1nZW5pZS1hbmQtYW1hem9uLXF1aWNr",
+      "title": "Automate replenishment with MMF, Databricks Genie, and Amazon Quick",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/automate-replenishment-with-mmf-databricks-genie-and-amazon-quick",
+      "published_at": "2026-09-14T15:42:06.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Foundation models made catalog-wide demand forecasting easy; the hard part is now acting on the forecast. This post builds a closed detect-decide-act loop on Databricks and Amazon Quick that reconciles demand surges against live supplier availability and places replenishment orders unattended, escalating to a human only when no supplier can cover a surge.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2Z5eGVy",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "title_zh": "",
+      "url": "https://openai.com/index/fyxer",
+      "published_at": "2026-09-14T12:00:00.000Z",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
     {
       "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3BlcnBsZXhpdHktaW1wcm92aW5nLWFjY3VyYWN5LXdpdGgtYXN0cmE",
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
