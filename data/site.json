@@ -1,37 +1,37 @@
 {
   "meta": {
     "name": "AI 落地雷达",
-    "generated_at": "2026-09-18T01:25:28.225Z",
+    "generated_at": "2026-09-19T01:28:36.696Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
-    "raw_count": 166,
-    "shortlisted_count": 28,
-    "inserted_count": 28,
-    "total_items": 460,
-    "strong_items": 23,
-    "paper_items": 181,
-    "source_success": 8,
+    "raw_count": 141,
+    "shortlisted_count": 10,
+    "inserted_count": 10,
+    "total_items": 470,
+    "strong_items": 24,
+    "paper_items": 182,
+    "source_success": 7,
     "source_attempted": 8,
-    "duration_seconds": 67.3
+    "duration_seconds": 46.9
   },
   "brief": {
     "headline": "生产信号集中在「通用企业工作流」",
-    "summary": "本期有 23 条生产或规模化信号达到 A/B 级。",
+    "summary": "本期有 24 条生产或规模化信号达到 A/B 级。",
     "themes": []
   },
   "stages": [
     {
       "key": "research",
       "label": "论文/技术",
-      "count": 217
+      "count": 218
     },
     {
       "key": "product",
       "label": "产品发布",
-      "count": 194
+      "count": 201
     },
     {
       "key": "pilot",
@@ -41,7 +41,7 @@
     {
       "key": "production",
       "label": "生产部署",
-      "count": 39
+      "count": 41
     },
     {
       "key": "scale",
@@ -51,6 +51,230 @@
   ],
   "trends": [],
   "items": [
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2FtYXpvbi1zYWdlbWFrZXItaW5mZXJlbmNlLTIwMjYteWVhci10by1kYXRlLWxhdW5jaGVzLWluLXJldmlldw",
+      "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review",
+      "published_at": "2026-09-18T20:52:14.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Amazon SageMaker AI shipped 13 inference launches in year-to-date across two deployment paths: fully managed endpoints and Amazon SageMaker HyperPod Inference. This post reviews each launch, from inference recommendations and capacity-aware instance pools to tiered KV caching and disaggregated prefill and decode.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2ludHJvZHVjaW5nLWtpbWktazMtb24tYW1hem9uLWJlZHJvY2s",
+      "title": "Introducing Kimi K3 on Amazon Bedrock",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock",
+      "published_at": "2026-09-18T16:52:01.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 70,
+      "evidence_reason": "一手来源；披露量化指标",
+      "summary": "Kimi K3 from Moonshot AI is now available on Amazon Bedrock, giving you a powerful new open-weight option for coding and knowledge work. It offers native vision, a 1-million-token context window, and explicit prompt caching to reduce latency and input costs.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL21pZ3JhdGluZy1tdWx0aS1tb2RlbC1haS1hZ2VudHMtdG8tYW1hem9uLWJlZHJvY2stYWdlbnRjb3JlLXJ1bnRpbWU",
+      "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime",
+      "published_at": "2026-09-18T15:38:53.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Migrate a multi-model healthcare AI agent from self-managed Amazon ECS with AWS Fargate to Amazon Bedrock AgentCore runtime, preserving triple-model orchestration and vector-enhanced knowledge retrieval while reducing infrastructure management. The framework-agnostic pattern applies across healthcare, financial services, and manufacturing.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL3RoZS1uZXctYWdlbnRjb3JlLXJ1bnRpbWUtZWxhc3RpYy1vcHRpbWl6ZWQtYW5kLWNvbnNpc3RlbnRseS1mYXN0LXN0YXJ0cw",
+      "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts",
+      "published_at": "2026-09-18T15:31:34.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "production",
+      "evidence_grade": "C",
+      "evidence_score": 69,
+      "evidence_reason": "一手来源；进入生产或真实流量",
+      "summary": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost efficiency that production agents demand. It reclaims memory as sessions release it and delivers consistent cold starts regardless of image size or concurrency.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "生产部署"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2RlcGxveS1odWdnaW5nLWZhY2UtbW9kZWxzLW9uLWFtYXpvbi1zYWdlbWFrZXItYWktd2l0aC1jb2RpbmctYWdlbnRz",
+      "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents",
+      "published_at": "2026-09-18T15:25:23.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "production",
+      "evidence_grade": "C",
+      "evidence_score": 69,
+      "evidence_reason": "一手来源；进入生产或真实流量",
+      "summary": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the right serving container, autoscaling, Amazon CloudWatch alarms, and a verified teardown path.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "生产部署"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2FpL2V4cGFuZGluZy1haS1lY29ub215LXJlc2VhcmNoLWJlbmNo",
+      "title": "New experts join Google’s AI & Economy team",
+      "title_zh": "",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench",
+      "published_at": "2026-09-18T14:00:00.000Z",
+      "source_id": "google-ai-blog",
+      "source_name": "Google AI Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2ludHJvZHVjaW5nLWFtYXpvbi1zYWdlbWFrZXItaHlwZXJwb2QtaW5mZXJlbmNlLWdhdGV3YXk",
+      "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway",
+      "published_at": "2026-09-18T13:08:34.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "B",
+      "evidence_score": 83,
+      "evidence_reason": "一手来源；披露量化指标；场景或采用方明确",
+      "summary": "Amazon SageMaker HyperPod Inference Gateway is a Kubernetes-native, GPU-aware routing add-on for Amazon EKS. It uses real-time GPU signals to send each inference request to the best-suited pod, cutting first-token latency by up to 82% with no changes to your model servers or client applications.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2FpL2dvb2dsZS1mbG93LWZhc2hpb24td2Vlaw",
+      "title": "Co-creating the future of fashion with Google",
+      "title_zh": "",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week",
+      "published_at": "2026-09-18T13:00:00.000Z",
+      "source_id": "google-ai-blog",
+      "source_name": "Google AI Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL29wZW5haS9vcGVuYWktYWdlbnRzLXB5dGhvbi9yZWxlYXNlcy90YWcvdjAuMjIuMw",
       "title": "openai/openai-agents-python v0.22.3",
@@ -216,6 +440,34 @@
       "opportunity": "",
       "topics": [
         "生产部署"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDkuMjA1ODR2MQ",
+      "title": "SAFARI: An Industrial Benchmark for LLM-Assisted Hazard Analysis and Risk Assessment",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2609.20584v1",
+      "published_at": "2026-09-17T15:37:51Z",
+      "source_id": "arxiv-ai-workflow",
+      "source_name": "arXiv · AI 与业务工作流",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Large language models (LLMs) are increasingly considered for safety-critical engineering, yet their reliability in regulated functional-safety workflows remains underexplored. We introduce SAFARI (Safety-Aware Functional Automotive Risk Inference), the first industrial benchmark for LLM-assisted automotive Hazard Analysis and Risk Assessment (HARA) under ISO 26262. It contains 3,000 de-identified industrial HARA cases and evaluates two coupled tasks: open-ended hazard analysis and standards-grounded risk assessment. To evaluate open-ended HARA artifacts, we propose the first reference-anchored",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
       ],
       "ai_analyzed": false
     },
@@ -1084,6 +1336,34 @@
       "opportunity": "",
       "topics": [
         "生产部署"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2hleC1ncHQtNi1hc3RyYQ",
+      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "title_zh": "",
+      "url": "https://openai.com/index/hex-gpt-6-astra",
+      "published_at": "2026-09-16T12:00:00.000Z",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
       ],
       "ai_analyzed": false
     },
@@ -13111,9 +13391,9 @@
       "name": "arXiv · 企业 Agent / 生产部署",
       "source_type": "paper",
       "primary": true,
-      "status": "ok",
-      "count": 25,
-      "error": ""
+      "status": "error",
+      "count": 0,
+      "error": "Error: HTTP 429 https://export.arxiv.org/api/query?search_query=all%3A%22enterprise%22%20AND%20all%3A%22agent%22&sortBy=submittedDate&sortOrder=descending&max_results=25"
     },
     {
       "id": "arxiv-ai-workflow",
