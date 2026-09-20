@@ -1,21 +1,21 @@
 {
   "meta": {
     "name": "AI 落地雷达",
-    "generated_at": "2026-09-19T01:28:36.696Z",
+    "generated_at": "2026-09-20T01:29:40.579Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
-    "raw_count": 141,
-    "shortlisted_count": 10,
-    "inserted_count": 10,
-    "total_items": 470,
+    "raw_count": 166,
+    "shortlisted_count": 2,
+    "inserted_count": 2,
+    "total_items": 472,
     "strong_items": 24,
-    "paper_items": 182,
-    "source_success": 7,
+    "paper_items": 183,
+    "source_success": 8,
     "source_attempted": 8,
-    "duration_seconds": 46.9
+    "duration_seconds": 16.8
   },
   "brief": {
     "headline": "生产信号集中在「通用企业工作流」",
@@ -26,12 +26,12 @@
     {
       "key": "research",
       "label": "论文/技术",
-      "count": 218
+      "count": 219
     },
     {
       "key": "product",
       "label": "产品发布",
-      "count": 201
+      "count": 202
     },
     {
       "key": "pilot",
@@ -276,6 +276,34 @@
       "ai_analyzed": false
     },
     {
+      "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2F1c3RyYWxpYW4teW91dGgtc2FmZXR5LWJsdWVwcmludA",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "title_zh": "",
+      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "published_at": "2026-09-18T12:00:00.000Z",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL29wZW5haS9vcGVuYWktYWdlbnRzLXB5dGhvbi9yZWxlYXNlcy90YWcvdjAuMjIuMw",
       "title": "openai/openai-agents-python v0.22.3",
       "title_zh": "",
@@ -356,6 +384,34 @@
       "opportunity": "",
       "topics": [
         "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDkuMjA3NTR2MQ",
+      "title": "RAFT: A Stateful Retrieval-Augmented Framework for Troubleshooting Agents",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2609.20754v1",
+      "published_at": "2026-09-17T17:41:31Z",
+      "source_id": "arxiv-enterprise-agent",
+      "source_name": "arXiv · 企业 Agent / 生产部署",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源；场景或采用方明确",
+      "summary": "Effective troubleshooting agents in enterprise customer support depend on retrieving actionable guidance from similar historical cases, yet existing retrieval-augmented generation (RAG) systems treat support cases as static documents and overlook their multi-stage, stateful nature. We introduce RAFT (Retrieval-Augmented Framework for Troubleshooting Agents), a stateful RAG framework that abstracts each closed historical case into a directed chain of timeline entries and retrieves at the entry level, surfacing cases whose intermediate states match the active case and returning the parent-case t",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
       ],
       "ai_analyzed": false
     },
@@ -13391,9 +13447,9 @@
       "name": "arXiv · 企业 Agent / 生产部署",
       "source_type": "paper",
       "primary": true,
-      "status": "error",
-      "count": 0,
-      "error": "Error: HTTP 429 https://export.arxiv.org/api/query?search_query=all%3A%22enterprise%22%20AND%20all%3A%22agent%22&sortBy=submittedDate&sortOrder=descending&max_results=25"
+      "status": "ok",
+      "count": 25,
+      "error": ""
     },
     {
       "id": "arxiv-ai-workflow",
