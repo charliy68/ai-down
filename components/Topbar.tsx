@@ -8,8 +8,8 @@ export default function Topbar({ meta }: { meta: Meta }) {
   });
   return (
     <header className="topbar">
-      <a className="brand" href="#top" aria-label="AI 落地雷达首页">
-        <span className="brand-mark">R</span><span>REALITY / AI</span>
+      <a className="brand" href="#top" aria-label="AI快讯雷达首页">
+        <span className="brand-mark">R</span><span>AI快讯雷达</span>
       </a>
       <nav className="nav" aria-label="主导航">
         <a href="#today">今日信号</a>

@@ -20,7 +20,7 @@ export async function GET() {
     </item>`).join("");
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel>
-<title>AI 落地雷达</title>
+<title>AI快讯雷达</title>
 <link>https://radar.yuedu.biz</link>
 <description>从论文到生产，追踪可验证的企业 AI 信号。</description>
 <lastBuildDate>${new Date(data.meta.generated_at).toUTCString()}</lastBuildDate>

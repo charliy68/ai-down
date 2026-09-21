@@ -96,6 +96,8 @@ footer.site a { color: var(--accent); }
 }
 
 .signal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 14px; }
+.signal-grid.is-featured { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+.signal-grid.is-featured .signal-featured { grid-column: auto; }
 .signal-card { display: flex; flex-direction: column; gap: 10px; background: var(--card);
   border: 1px solid var(--border); border-radius: var(--radius); padding: 20px;
   transition: transform .15s, border-color .15s, background .15s; }

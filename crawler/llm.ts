@@ -39,8 +39,14 @@ async function chatWithRetry(messages: { role: string; content: string }[], retr
 
 function parseJsonLoose(text: string): Record<string, unknown> | null {
   const m = text.match(/\{[\s\S]*\}/);
-  if (!m) return null;
-  try { return JSON.parse(m[0]); } catch { return null; }
+  if (!m) {
+    console.error(`[llm.parse] no {…} found. raw first 300: ${text.slice(0, 300).replace(/\n/g, "\\n")}`);
+    return null;
+  }
+  try { return JSON.parse(m[0]); } catch (e) {
+    console.error(`[llm.parse] JSON.parse failed: ${(e as Error).message}. matched first 300: ${m[0].slice(0, 300).replace(/\n/g, "\\n")}`);
+    return null;
+  }
 }
 
 const ENRICH_SYSTEM = `你是企业 AI 情报分析师。给定一条英文技术信号，产出 JSON（不要输出其他文字）：
@@ -73,7 +79,8 @@ export async function enrich(raw: RawItem): Promise<Partial<Signal> & { suggeste
       ...(typeof j.suggested_stage === "string" && VALID_STAGES.has(j.suggested_stage)
         ? { suggested_stage: j.suggested_stage as Stage } : {}),
     };
-  } catch {
+  } catch (e) {
+    console.error(`[llm.enrich] ${raw.url} failed: ${(e as Error).message.slice(0, 200)}`);
     return null; // 失败降级，不阻塞管线
   }
 }
@@ -88,7 +95,8 @@ export async function generateBrief(top: Signal[]): Promise<{ headline: string; 
     const j = parseJsonLoose(text);
     if (!j) return null;
     return { headline: String(j.headline ?? ""), summary: String(j.summary ?? "") };
-  } catch {
+  } catch (e) {
+    console.error(`[llm.brief] failed: ${(e as Error).message.slice(0, 200)}`);
     return null;
   }
 }

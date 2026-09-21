@@ -53,7 +53,7 @@ export default function RadarApp({ data }: { data: SiteData }) {
           <div><span className="section-index">02</span><h2>当前最值得看</h2></div>
           <p>A 级要求生产数据或严谨现场实验；B 级要求真实客户、业务场景与结果。</p>
         </div>
-        <div className="signal-grid">
+        <div className="signal-grid is-featured">
           {featured.map(s => <SignalCard key={s.id} signal={s} featured />)}
         </div>
       </section>

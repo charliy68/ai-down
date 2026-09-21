@@ -81,7 +81,7 @@ async function main() {
       evidence_score: evidenceScore(raw, grade),
       evidence_reason: evidenceReason(raw),
       summary: llm?.summary ?? raw.excerpt,
-      why_it_matters: llm?.why_it_matters ?? "",
+      why_it_matters: llm?.why_it_matters || evidenceReason(raw),
       method: llm?.method ?? "",
       result: llm?.result ?? "",
       sector: llm?.sector ?? "跨行业",
@@ -144,7 +144,7 @@ async function main() {
   const sourceSuccess = healths.filter(h => h.status === "ok").length;
   const data: SiteData = {
     meta: {
-      name: "AI 落地雷达", generated_at: new Date().toISOString(), timezone: "Asia/Shanghai",
+      name: "AI快讯雷达", generated_at: new Date().toISOString(), timezone: "Asia/Shanghai",
       site_url: SITE_URL, schedule: "07:30",
       health: sourceSuccess >= SOURCES.length - 2 ? "ok" : "warning",
       stale_after_hours: STALE_HOURS,
