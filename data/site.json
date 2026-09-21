@@ -1,32 +1,32 @@
 {
   "meta": {
     "name": "AI 落地雷达",
-    "generated_at": "2026-09-20T01:29:40.579Z",
+    "generated_at": "2026-09-21T01:27:40.527Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
     "raw_count": 166,
-    "shortlisted_count": 2,
-    "inserted_count": 2,
-    "total_items": 472,
-    "strong_items": 24,
-    "paper_items": 183,
+    "shortlisted_count": 8,
+    "inserted_count": 8,
+    "total_items": 480,
+    "strong_items": 25,
+    "paper_items": 191,
     "source_success": 8,
     "source_attempted": 8,
-    "duration_seconds": 16.8
+    "duration_seconds": 26.3
   },
   "brief": {
     "headline": "生产信号集中在「通用企业工作流」",
-    "summary": "本期有 24 条生产或规模化信号达到 A/B 级。",
+    "summary": "本期有 25 条生产或规模化信号达到 A/B 级。",
     "themes": []
   },
   "stages": [
     {
       "key": "research",
       "label": "论文/技术",
-      "count": 219
+      "count": 226
     },
     {
       "key": "product",
@@ -41,7 +41,7 @@
     {
       "key": "production",
       "label": "生产部署",
-      "count": 41
+      "count": 42
     },
     {
       "key": "scale",
@@ -192,6 +192,62 @@
       "ai_analyzed": false
     },
     {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDkuMjE4NDN2MQ",
+      "title": "Supporting Industrial Test-Failure Analysis with LLM-Based Systems: An Experience Report",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2609.21843v1",
+      "published_at": "2026-09-18T14:39:42Z",
+      "source_id": "arxiv-ai-workflow",
+      "source_name": "arXiv · AI 与业务工作流",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "This study examines tool-augmented Large Language Model (LLM) systems for supporting Root Cause Analysis (RCA) of nightly test failures at Westermo Network Technologies AB. Nightly test executions produce heterogeneous test data and logs that practitioners currently inspect manually across multiple sources. We implemented an RCA workflow in single-agent and orchestrated multi-agent configurations, both with access to test metadata and logs. An exploratory industrial case study used two real failure scenarios. Six practitioners evaluated the scenario reports through a survey and focus group, an",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDkuMjE4NDF2MQ",
+      "title": "EnterpriseVal: Quantifying the Efficacy, Reliability and Value of Generative AI in the Enterprise",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2609.21841v1",
+      "published_at": "2026-09-18T14:39:26Z",
+      "source_id": "arxiv-enterprise-agent",
+      "source_name": "arXiv · 企业 Agent / 生产部署",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源；场景或采用方明确",
+      "summary": "Frontier language models now produce professional deliverables that expert graders judge to match human work on a substantial share of economically valuable tasks, yet most enterprise GenAI initiatives fail to show a measurable business effect and a large fraction of agentic projects are expected to be cancelled. We argue that this is substantially a measurement problem: public benchmarks answer \"what can the model do?\", whereas a deployment decision requires \"is this workflow fit, reliable, safe and worth scaling - here, on our data, under our controls?\". We present EnterpriseVal, a use-case-",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
       "id": "aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2FpL2V4cGFuZGluZy1haS1lY29ub215LXJlc2VhcmNoLWJlbmNo",
       "title": "New experts join Google’s AI & Economy team",
       "title_zh": "",
@@ -216,6 +272,34 @@
       "opportunity": "",
       "topics": [
         "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDkuMjE3NDl2MQ",
+      "title": "GraphSkillEvo: Evolutionary Optimization of Graph-Structured Agent Skills",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2609.21749v1",
+      "published_at": "2026-09-18T13:24:33Z",
+      "source_id": "arxiv-ai-workflow",
+      "source_name": "arXiv · AI 与业务工作流",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Skills can improve the performance of Large Language Model (LLM) agents by providing task-specific procedural guidance, while skill optimization further improves their effectiveness through iterative refinement. However, existing skill optimization methods typically represent skills as unstructured natural-language instructions, creating two key challenges: 1) Unstructured skills often lack explicit workflow-level guidance and contain substantial redundancy, making them difficult for LLMs to execute; 2) the vast search space of unconstrained natural-language skills makes skill optimization ine",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
       ],
       "ai_analyzed": false
     },
@@ -304,6 +388,62 @@
       "ai_analyzed": false
     },
     {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDkuMjE2MjZ2MQ",
+      "title": "One Prompt Does Not Fit All: Self-Meta-Evolve for Personalized Information Extraction",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2609.21626v1",
+      "published_at": "2026-09-18T11:05:41Z",
+      "source_id": "arxiv-ai-workflow",
+      "source_name": "arXiv · AI 与业务工作流",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "production",
+      "evidence_grade": "B",
+      "evidence_score": 82,
+      "evidence_reason": "一手来源；进入生产或真实流量；场景或采用方明确",
+      "summary": "Large language models (LLMs) are increasingly deployed for enterprise information extraction (IE), where the same document must be reorganized differently for each user. Existing prompt optimization methods, however, rely on a single prompt optimized against a global objective, which is misaligned with the inherent user heterogeneity of real workplaces. We formulate enterprise IE as per-user prompt adaptation under interaction feedback and propose Self-Meta-Evolve, a hierarchical framework that maintains a dedicated prompt for each user and continuously refines it through a dual-loop process: ",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "生产部署"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDkuMjExNTd2MQ",
+      "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2609.21157v1",
+      "published_at": "2026-09-17T23:55:03Z",
+      "source_id": "arxiv-ai-workflow",
+      "source_name": "arXiv · AI 与业务工作流",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Large Language Model (LLM) agents are increasingly being explored for chip design, but most existing approaches operate directly at RTL. We ask whether agents can design better chips by leveraging higher-level abstractions. We compare Direct RTL Design, Agent-based HLS Design, Post-Compiler HLS Refinement, and Post-HLS RTL Refinement, and combine Agent-based HLS Design with Post-HLS RTL Refinement as Agent-based HLS with RTL Refinement (AHRR). We use FPGAs as a practical, easy-to-deploy platform for end-to-end evaluation, but note that the design-flow tradeoffs we study are largely independent",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL29wZW5haS9vcGVuYWktYWdlbnRzLXB5dGhvbi9yZWxlYXNlcy90YWcvdjAuMjIuMw",
       "title": "openai/openai-agents-python v0.22.3",
       "title_zh": "",
@@ -328,6 +468,34 @@
       "opportunity": "",
       "topics": [
         "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDkuMjExMDN2MQ",
+      "title": "NetInspector: Measuring and Improving LLM Capabilities for Reliable Intent-Based Networking Policy Generation",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2609.21103v1",
+      "published_at": "2026-09-17T21:26:44Z",
+      "source_id": "arxiv-enterprise-agent",
+      "source_name": "arXiv · 企业 Agent / 生产部署",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Modern networks are large in scale and heterogeneous in configuration, making manual policy management increasingly impractical. Intent-Based Networking (IBN) addresses this by automating the translation of high-level operator goals into low-level network configurations. Yet existing IBN systems rely on static heuristics and fixed-feature classifiers that generalize poorly to distribution shifts such as new service definitions or evolving phrasing in operator requests. Large Language Models (LLMs), with strong reasoning and translation capabilities demonstrated across many domains, are a natur",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
       ],
       "ai_analyzed": false
     },
@@ -892,6 +1060,34 @@
       "ai_analyzed": false
     },
     {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDkuMjA4ODZ2MQ",
+      "title": "BI-Agent and BI-Bench: Towards Automating End-to-End Business Intelligence",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2609.20886v1",
+      "published_at": "2026-09-16T22:36:20Z",
+      "source_id": "arxiv-enterprise-agent",
+      "source_name": "arXiv · 企业 Agent / 生产部署",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源；场景或采用方明确",
+      "summary": "Business intelligence (BI) is a cornerstone of enterprise decision-making and is widely used by enterprise users in software such as Power BI and Tableau. In traditional BI workflows, users need to prepare data by (1) identifying relevant tables, (2) performing data transformations, and (3) building join relationships, before they can (4) answer their business questions. These steps can be complex and time-consuming, making BI challenging. Given the strong capabilities of large language models (LLMs) in working with data, we study their ability to answer BI questions end-to-end, without requir",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2Jyb3dzZXJiYXNlL3N0YWdlaGFuZA",
       "title": "browserbase/stagehand",
       "title_zh": "",
@@ -1140,6 +1336,34 @@
       "opportunity": "",
       "topics": [
         "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MDkuMTg4NjR2Mg",
+      "title": "ASLEval: Measuring Privacy Exposure Displacement in LLM Agent Sessions",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2609.18864v2",
+      "published_at": "2026-09-16T16:03:11Z",
+      "source_id": "arxiv-enterprise-agent",
+      "source_name": "arXiv · 企业 Agent / 生产部署",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源；场景或采用方明确",
+      "summary": "Privacy evaluations of tool-using LLM agents often inspect a designated action, final response, or attacker report. These local proxies can miss unauthorized exposure elsewhere in a multi-step session and lack common ground truth across outlets, reports, and tool paths. We introduce privacy exposure displacement, the mismatch between a local evaluation proxy and target-grounded session exposure, and ASLEval, an authorization-aware framework that pre-registers a hidden target set, measures all declared visible exits, and reserves internal traces for diagnosis. Across multiple enterprise-style e",
+      "why_it_matters": "",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
       ],
       "ai_analyzed": false
     },
