@@ -1,21 +1,21 @@
 {
   "meta": {
     "name": "AI快讯雷达",
-    "generated_at": "2026-09-26T01:52:56.510Z",
+    "generated_at": "2026-09-27T01:41:42.891Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
     "raw_count": 166,
-    "shortlisted_count": 36,
-    "inserted_count": 36,
+    "shortlisted_count": 26,
+    "inserted_count": 26,
     "total_items": 500,
     "strong_items": 31,
     "paper_items": 231,
     "source_success": 8,
     "source_attempted": 8,
-    "duration_seconds": 81.4
+    "duration_seconds": 67.5
   },
   "brief": {
     "headline": "生产信号集中在「通用企业工作流」",
