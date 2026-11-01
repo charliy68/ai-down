@@ -1,37 +1,37 @@
 {
   "meta": {
     "name": "AI快讯雷达",
-    "generated_at": "2026-10-31T02:41:09.107Z",
+    "generated_at": "2026-11-01T02:31:02.005Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
     "raw_count": 166,
-    "shortlisted_count": 57,
+    "shortlisted_count": 43,
     "inserted_count": 40,
     "total_items": 500,
-    "strong_items": 36,
-    "paper_items": 291,
+    "strong_items": 35,
+    "paper_items": 288,
     "source_success": 8,
     "source_attempted": 8,
-    "duration_seconds": 86.8
+    "duration_seconds": 93.9
   },
   "brief": {
     "headline": "生产信号集中在「通用企业工作流」",
-    "summary": "本期有 36 条生产或规模化信号达到 A/B 级。",
+    "summary": "本期有 35 条生产或规模化信号达到 A/B 级。",
     "themes": []
   },
   "stages": [
     {
       "key": "research",
       "label": "论文/技术",
-      "count": 274
+      "count": 279
     },
     {
       "key": "product",
       "label": "产品发布",
-      "count": 171
+      "count": 168
     },
     {
       "key": "pilot",
@@ -41,7 +41,7 @@
     {
       "key": "production",
       "label": "生产部署",
-      "count": 39
+      "count": 37
     },
     {
       "key": "scale",
@@ -51,6 +51,118 @@
   ],
   "trends": [],
   "items": [
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL0t1bkFnZW50L0t1bg",
+      "title": "KunAgent/Kun",
+      "title_zh": "",
+      "url": "https://github.com/KunAgent/Kun",
+      "published_at": "2026-11-01T02:18:47Z",
+      "source_id": "github-agent-projects",
+      "source_name": "GitHub · 活跃 AI Agent 项目",
+      "source_type": "agent_project",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and TUI. ★6351，最近推送 2026-11-01",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL05hbm1pQ29kZXIvY2MtaGFoYQ",
+      "title": "NanmiCoder/cc-haha",
+      "title_zh": "",
+      "url": "https://github.com/NanmiCoder/cc-haha",
+      "published_at": "2026-10-31T17:38:57Z",
+      "source_id": "github-agent-projects",
+      "source_name": "GitHub · 活跃 AI Agent 项目",
+      "source_type": "agent_project",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "本地优先的跨平台 Claude Code / AI Agent 桌面工作台：多 Agent 协作、Git Worktree、代码 Diff、技能市场、多模型、Computer Use、桌面宠物；支持微信、飞书、钉钉及 H5 等远程访问。 | Local-first Claude Code / AI Agent desktop workspace: multi-agent teams, Git worktrees, diffs, skills marketplace, multi-model, Computer Use, task-aware desktop pets; remote via WeChat, Feishu, DingTalk, Telegram, WhatsApp & H5. ★15251，最近推送 2026-10-31",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL3poYXl1amllL0Nvd0FnZW50",
+      "title": "zhayujie/CowAgent",
+      "title_zh": "",
+      "url": "https://github.com/zhayujie/CowAgent",
+      "published_at": "2026-10-31T11:20:13Z",
+      "source_id": "github-agent-projects",
+      "source_name": "GitHub · 活跃 AI Agent 项目",
+      "source_type": "agent_project",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install. ★47720，最近推送 2026-10-31",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL2Fkb25nd2FuYWkvQWdlbnRHdWlkZQ",
+      "title": "adongwanai/AgentGuide",
+      "title_zh": "",
+      "url": "https://github.com/adongwanai/AgentGuide",
+      "published_at": "2026-10-31T04:00:13Z",
+      "source_id": "github-agent-projects",
+      "source_name": "GitHub · 活跃 AI Agent 项目",
+      "source_type": "agent_project",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "https://adongwanai.github.io/AgentGuide | AI Agent开发指南 | LangGraph实战 | 高级RAG | 转行大模型 | 大模型面试 | 算法工程师 | 面试题库 | 强化学习｜数据合成 ★11483，最近推送 2026-10-31",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2UyYi1kZXYvRTJC",
       "title": "e2b-dev/E2B",
@@ -304,6 +416,34 @@
       "ai_analyzed": false
     },
     {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL0hLVURTL1ZpYmUtVHJhZGluZw",
+      "title": "HKUDS/Vibe-Trading",
+      "title_zh": "",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "published_at": "2026-10-30T03:45:49Z",
+      "source_id": "github-agent-projects",
+      "source_name": "GitHub · 活跃 AI Agent 项目",
+      "source_type": "agent_project",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "\"Vibe-Trading: Your Personal Trading Agent\" ★37307，最近推送 2026-10-30",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL29tbmlnZW50LWFpL29tbmlnZW50",
       "title": "omnigent-ai/omnigent",
       "title_zh": "",
@@ -412,6 +552,34 @@
       "opportunity": "",
       "topics": [
         "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL1dlbnl1Q2hpb3UvYXdlc29tZS1hZ2VudGljLWFpLXpo",
+      "title": "WenyuChiou/awesome-agentic-ai-zh",
+      "title_zh": "",
+      "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
+      "published_at": "2026-10-29T19:30:29Z",
+      "source_id": "github-agent-projects",
+      "source_name": "GitHub · 活跃 AI Agent 项目",
+      "source_type": "agent_project",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。 ★8327，最近推送 2026-10-29",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
       ],
       "ai_analyzed": false
     },
@@ -13880,174 +14048,6 @@
       "opportunity": "",
       "topics": [
         "产品发布"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2ZpbmUtdHVuZS1hLXNlYXJjaC1hZ2VudC13aXRoLW11bHRpLXR1cm4tcmwtb24tYW1hem9uLXNhZ2VtYWtlci1haQ",
-      "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
-      "title_zh": "",
-      "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai",
-      "published_at": "2026-10-02T15:44:20.000Z",
-      "source_id": "aws-ml-blog",
-      "source_name": "AWS ML Blog",
-      "source_type": "product_update",
-      "primary_source": true,
-      "stage": "product",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": "Fine-tuning teaches a small search agent your tools and environment, giving it the reliability of a frontier model at lower latency and cost. In this post, we fine-tune an LLM-powered search agent with multi-turn reinforcement learning (MTRL) on Amazon SageMaker AI and share the gains we measured in retrieval quality and reliability.",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "产品发布"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9naXRodWIuY29tL29wZW5haS9vcGVuYWktYWdlbnRzLXB5dGhvbi9yZWxlYXNlcy90YWcvdjAuMjMuMQ",
-      "title": "openai/openai-agents-python v0.23.1",
-      "title_zh": "",
-      "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.23.1",
-      "published_at": "2026-10-02T15:19:29Z",
-      "source_id": "github-agent-releases",
-      "source_name": "GitHub · Agent 框架版本发布",
-      "source_type": "product_update",
-      "primary_source": true,
-      "stage": "product",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": " [0.23.1](https://github.com/openai/openai-agents-python/compare/v0.23.0...v0.23.1) (2026-10-02) Bug Fixes restore release tests and refresh required readiness check ([5278](https://github.com/openai/openai-agents-python/issues/5278)) ([730deb4](https://github.com/openai/openai-agents-python/commit/730deb419c0a2e9e5ebd739499744e4a6bf89ed1)) <!-- agents-release-review:start --> Release readiness review (v0.23.0 -> TARGET 0a5a08b21cd44808d73e8a9e732212dd33b3690d) This is a release readiness report done by $final-release-review skill. Diff https://github.com/openai/openai-agents-python/compare/v0",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "产品发布"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMDM0MzR2MQ",
-      "title": "Persona Guardrail: A Production-Grade Defense Framework for Agentic Systems",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.03434v1",
-      "published_at": "2026-10-02T15:13:38Z",
-      "source_id": "arxiv-enterprise-agent",
-      "source_name": "arXiv · 企业 Agent / 生产部署",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "production",
-      "evidence_grade": "B",
-      "evidence_score": 82,
-      "evidence_reason": "一手来源；进入生产或真实流量；场景或采用方明确",
-      "summary": "Large language model-based agents are increasingly deployed to perform domain-specific tasks by interacting with enterprise knowledge, tools, and external services. Existing runtime guardrails primarily target prompt injection and other attack-specific behaviors under a black-box threat model, but provide limited guarantees that agents operate within their intended functionality. As a result, production agents remain vulnerable to malicious requests and out-of-domain queries that existing defenses often fail to distinguish. We present Persona Guardrail, a production-grade runtime defense frame",
-      "why_it_matters": "一手来源；进入生产或真实流量；场景或采用方明确",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "生产部署"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9ibG9nLmdvb2dsZS9pbm5vdmF0aW9uLWFuZC1haS90ZWNobm9sb2d5L2FpL2dvb2dsZS1haS11cGRhdGVzLXNlcHRlbWJlci0yMDI2",
-      "title": "The latest AI news we announced in September 2026",
-      "title_zh": "",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026",
-      "published_at": "2026-10-02T15:00:00.000Z",
-      "source_id": "google-ai-blog",
-      "source_name": "Google AI Blog",
-      "source_type": "product_update",
-      "primary_source": true,
-      "stage": "product",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": "Here are Google’s latest AI updates from September 2026",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "产品发布"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMDMzOTR2MQ",
-      "title": "EdgeAgent: Orchestrating On-Device LLM inference for End-User Multi-Agent Systems on CPU-GPU Unified Memory Architectures",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.03394v1",
-      "published_at": "2026-10-02T14:43:42Z",
-      "source_id": "arxiv-ai-workflow",
-      "source_name": "arXiv · AI 与业务工作流",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "research",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": "Emerging multi-agent LLMs demand privacy-preserving edge deployment, yet current inference systems struggle with these collaborative workflows. Specifically, the memory-bound decode phase causes severe bus contention on unified memory architectures (UMA), paralyzing naive CPU-GPU co-execution. Furthermore, speculative decoding in multi-agent workloads faces extreme variance in drafting difficulty, alternating between complex reasoning and predictable structured generation. Compounded by frequent tool-induced stalls, this highly fragmented execution severely underutilizes hardware and defeats t",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "论文/技术"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMDMzMTV2MQ",
-      "title": "Lightweight, Rubric-Guided Trajectory Evaluation for Production AI Agents",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.03315v1",
-      "published_at": "2026-10-02T13:51:06Z",
-      "source_id": "arxiv-enterprise-agent",
-      "source_name": "arXiv · 企业 Agent / 生产部署",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "production",
-      "evidence_grade": "C",
-      "evidence_score": 69,
-      "evidence_reason": "一手来源；进入生产或真实流量",
-      "summary": "Trajectory evaluation is essential for improving the reliability of LLM-based agents, but production use makes it expensive to run repeatedly. Modern agents generate long traces containing tool calls, observations, retries, and external outputs, while not all raw tokens are equally useful for diagnosis. We present \\textit{LiteTrajEval}, a lightweight architecture for budget-bounded trajectory evaluation. LiteTrajEval derives compact domain-specific rule profiles offline, then preprocesses each trajectory online, marks heuristic failure signals, serializes it under a fixed global budget, and in",
-      "why_it_matters": "一手来源；进入生产或真实流量",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "生产部署"
       ],
       "ai_analyzed": false
     }
