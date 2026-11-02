@@ -1,37 +1,37 @@
 {
   "meta": {
     "name": "AI快讯雷达",
-    "generated_at": "2026-11-01T02:31:02.005Z",
+    "generated_at": "2026-11-02T02:42:55.303Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
     "raw_count": 166,
-    "shortlisted_count": 43,
+    "shortlisted_count": 46,
     "inserted_count": 40,
     "total_items": 500,
-    "strong_items": 35,
-    "paper_items": 288,
+    "strong_items": 36,
+    "paper_items": 290,
     "source_success": 8,
     "source_attempted": 8,
-    "duration_seconds": 93.9
+    "duration_seconds": 88.2
   },
   "brief": {
     "headline": "生产信号集中在「通用企业工作流」",
-    "summary": "本期有 35 条生产或规模化信号达到 A/B 级。",
+    "summary": "本期有 36 条生产或规模化信号达到 A/B 级。",
     "themes": []
   },
   "stages": [
     {
       "key": "research",
       "label": "论文/技术",
-      "count": 279
+      "count": 281
     },
     {
       "key": "product",
       "label": "产品发布",
-      "count": 168
+      "count": 167
     },
     {
       "key": "pilot",
@@ -41,7 +41,7 @@
     {
       "key": "production",
       "label": "生产部署",
-      "count": 37
+      "count": 36
     },
     {
       "key": "scale",
@@ -51,6 +51,34 @@
   ],
   "trends": [],
   "items": [
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL2NyZXdBSUluYy9jcmV3QUkvcmVsZWFzZXMvdGFnLzEuMTUuMzQ",
+      "title": "crewAIInc/crewAI 1.15.34",
+      "title_zh": "",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.34",
+      "published_at": "2026-11-01T21:21:56Z",
+      "source_id": "github-agent-releases",
+      "source_name": "GitHub · Agent 框架版本发布",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": " What's Changed Features - Add standalone LiteLLM catalog PR before version bump - Record where crewai run stops before kickoff - Add crewai skill search to list the organization's skills - Pass crewai run --inputs to a Python flow - Add deploy create --zip and print the commit a zip is built from - Document agent planning with planningconfig and migrate reasoning page Bug Fixes - Stop offering shut-down Gemini models in crewai create - Raise MissingAPIKeyError for OpenAI-compatible providers - Count repeated tool call stops in anonymous telemetry - Count a crewai run whose project script fail",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL0t1bkFnZW50L0t1bg",
       "title": "KunAgent/Kun",
@@ -416,6 +444,34 @@
       "ai_analyzed": false
     },
     {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuNDEyNjB2MQ",
+      "title": "SketchDirector: Complex Scene Sketching via Agentic Layout Reasoning and Detail Refinement",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2610.41260v1",
+      "published_at": "2026-10-30T05:05:12Z",
+      "source_id": "arxiv-ai-workflow",
+      "source_name": "arXiv · AI 与业务工作流",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Existing sketch generation methods often rely on image guidance and are largely limited to individual objects or simplified scenes, leaving text-guided complex scene sketching underexplored. We present SketchDirector, an agentic framework that mimics the human sketching workflow for automatic multi-concept scene sketching. Given a scene-level text prompt, SketchDirector first employs a large language model~(LLM) to decompose the scene into multiple draft assets, where each is represented by a set of Bézier curves. Then, an agentic reasoning loop iteratively plans and executes their spatial arr",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL0hLVURTL1ZpYmUtVHJhZGluZw",
       "title": "HKUDS/Vibe-Trading",
       "title_zh": "",
@@ -440,6 +496,34 @@
       "opportunity": "",
       "topics": [
         "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuNDExODF2MQ",
+      "title": "AgentShield: Fortifying Web Applications Against AI Agents and Agentic Browsers",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2610.41181v1",
+      "published_at": "2026-10-30T03:00:34Z",
+      "source_id": "arxiv-ai-workflow",
+      "source_name": "arXiv · AI 与业务工作流",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "production",
+      "evidence_grade": "C",
+      "evidence_score": 69,
+      "evidence_reason": "一手来源；进入生产或真实流量",
+      "summary": "LLM-powered browser agents are transforming web automation by autonomously interacting with websites and executing complex workflows. However, the effectiveness of existing anti-bot defenses against these systems remains unclear. We present a systematic empirical evaluation of modern agentic browsers against widely deployed anti-bot mechanisms, characterizing their capabilities, limitations, and behavioral differences from humans. Our results show that many defenses designed for traditional automation struggle to reliably detect autonomous AI-driven agents. Accordingly, we introduce AgentShiel",
+      "why_it_matters": "一手来源；进入生产或真实流量",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "生产部署"
       ],
       "ai_analyzed": false
     },
@@ -500,6 +584,34 @@
       "ai_analyzed": false
     },
     {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuNDA5ODV2MQ",
+      "title": "The psychophysics of affect in large language models",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2610.40985v1",
+      "published_at": "2026-10-29T21:09:12Z",
+      "source_id": "arxiv-ai-workflow",
+      "source_name": "arXiv · AI 与业务工作流",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Good decisions often require considering how outcomes will feel. Yet large language models (LLMs) increasingly enter decision workflows, despite little being known about how they map outcomes to feelings or use those mappings in choice. We tested how LLMs anticipated gambling or stock-trading outcomes would feel and whether they incorporated these ratings into choice. When outcomes were rated in isolation, ratings exhibited diminishing sensitivity to magnitude, resembling human value functions; but models rated gains more intensely than equivalent losses, an inversion of canonical loss aversio",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2xhbmdjaGFpbi1haS9sYW5nY2hhaW4vcmVsZWFzZXMvdGFnL2xhbmdjaGFpbi1jb3JlJTNEJTNEMS43LjM",
       "title": "langchain-ai/langchain langchain-core==1.7.3",
       "title_zh": "",
@@ -552,6 +664,34 @@
       "opportunity": "",
       "topics": [
         "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuNDA5Mjd2MQ",
+      "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2610.40927v1",
+      "published_at": "2026-10-29T19:55:18Z",
+      "source_id": "arxiv-enterprise-agent",
+      "source_name": "arXiv · 企业 Agent / 生产部署",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "B",
+      "evidence_score": 80,
+      "evidence_reason": "一手来源；场景或采用方明确",
+      "summary": "Test-time scaling (TTS) improves large language model agents by sampling and selecting among multiple candidate trajectories, but common realizations assume that these trajectories can be executed in parallel. This assumption breaks in realistic deployments, where enterprise workspaces and cloud services are shared and persistent, costly or infeasible to replicate, and actions may introduce irreversible side effects or cross-trajectory interference. Existing generative world models avoid direct execution, but typically compress environment state into a single prompt, limiting their ability to ",
+      "why_it_matters": "一手来源；场景或采用方明确",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
       ],
       "ai_analyzed": false
     },
@@ -1004,6 +1144,34 @@
       "ai_analyzed": false
     },
     {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuNDA3MjF2MQ",
+      "title": "MetaVul: Agentic Harness Discovery for Vulnerability Detection",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2610.40721v1",
+      "published_at": "2026-10-29T04:30:42Z",
+      "source_id": "arxiv-ai-workflow",
+      "source_name": "arXiv · AI 与业务工作流",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "LLM agents are increasingly used to automate vulnerability detection, but reliable detection is challenging because agents must distinguish subtle, security-relevant fixes from benign code variation. While underlying LLM capability has improved significantly, the accuracy of the agent still depends heavily on the harness: the code that defines the scaffolding around the LLM. Harnesses are typically fixed, and largely hand-written, limiting adaptation to evaluator feedback. Additionally, when harnesses are static, improvements on one dataset or model may not transfer to others. To address these",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
       "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMzkyMzB2MQ",
       "title": "Beyond LLM Wrappers: Context Engineering and the Three-Engine Architecture for Reliable Financial AI",
       "title_zh": "",
@@ -1028,6 +1196,34 @@
       "opportunity": "",
       "topics": [
         "生产部署"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuNDA3MTR2MQ",
+      "title": "PrivacyFlow: Privacy in AI Agents through Information Flow Analysis and Consequence-Aware Risk Management",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2610.40714v1",
+      "published_at": "2026-10-29T01:54:36Z",
+      "source_id": "arxiv-ai-workflow",
+      "source_name": "arXiv · AI 与业务工作流",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Autonomous LLM agents executing multi-step workflows over personal data often misalign with user privacy expectations and leak sensitive, out-of-context information. Although Contextual Integrity (CI) formalizes this problem, existing benchmarks and defenses rarely operationalize CI for realistic multi-step task sequences in evolving environments. In this work, we first introduce agentic PrivacyBench, a benchmark of 5873 tasks in 986 task sequences with dynamic environment updates and CI-grounded allow-sets for sensitive information. We also introduce PrivacyFlow, a defense that separates deli",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
       ],
       "ai_analyzed": false
     },
@@ -3324,6 +3520,34 @@
       "opportunity": "",
       "topics": [
         "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMzMzNzV2Mg",
+      "title": "AgentOrch: How Close Can Global Orchestration Come to Step-by-Step Interaction?",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2610.33375v2",
+      "published_at": "2026-10-24T00:08:11Z",
+      "source_id": "arxiv-enterprise-agent",
+      "source_name": "arXiv · 企业 Agent / 生产部署",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "B",
+      "evidence_score": 80,
+      "evidence_reason": "一手来源；场景或采用方明确",
+      "summary": "Enterprise workflow agents typically rely on step-by-step interaction (Step-by-Step): the agent executes an action, observes its result, and invokes a large language model (LLM) again to decide the next step. Global orchestration (Global) instead generates a complete executable workflow in advance and executes it without further LLM calls, substantially reducing inference overhead, but it remains less accurate than Step-by-Step. We study how close Global can come to Step-by-Step and what narrows the remaining gap. We introduce AgentOrch, a benchmark that directly compares global orchestration ",
+      "why_it_matters": "一手来源；场景或采用方明确",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
       ],
       "ai_analyzed": false
     },
@@ -13824,230 +14048,6 @@
       "opportunity": "",
       "topics": [
         "论文/技术"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMDQxMzR2MQ",
-      "title": "Agentic Resource Allocation for Batch Multi-Objective Bayesian Optimization in Autonomous Materials Discovery",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.04134v1",
-      "published_at": "2026-10-02T23:08:20Z",
-      "source_id": "arxiv-ai-workflow",
-      "source_name": "arXiv · AI 与业务工作流",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "research",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": "The discovery and development of advanced materials is a challenging process constrained by the high time and monetary costs of synthesis, processing, and characterization. The underlying design spaces can be enormous, often with multiple competing objectives. Bayesian optimization (BO) provides a principled approach for efficiently navigating such spaces, but most workflows rely on fixed exploration-exploitation policies that lack the capacity to adapt to shifting constraints in dynamic campaigns typical of self-driving laboratories. In this work, we develop a multi-objective BO framework for",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "论文/技术"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMDQxMzN2MQ",
-      "title": "Auditing Pairwise Equivalence Judgments: Self-Critique Effects and Diversity Measurement in Multi-Agent Hypothesis Generation",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.04133v1",
-      "published_at": "2026-10-02T23:07:36Z",
-      "source_id": "arxiv-ai-workflow",
-      "source_name": "arXiv · AI 与业务工作流",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "research",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": "Multi-agent systems built on large language models (LLMs) are increasingly applied to scientific discovery and hypothesis generation. Both the effect of refinement and the diversity of the delivered set are hard to interpret before experimental ground truth exists, and both are typically reported by deciding whether pairs of generated hypotheses describe the same underlying mechanism. We study two evaluation questions that rest on this pairwise equivalence judgment: (1) how much self-critique changes delivered hypotheses beyond run-to-run variability, and (2) how the equivalence rule used to g",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "论文/技术"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMDQxMTh2MQ",
-      "title": "LongSocialBench: Do Long-Context LLMs Understand Online Discussion Threads?",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.04118v1",
-      "published_at": "2026-10-02T22:47:29Z",
-      "source_id": "arxiv-ai-workflow",
-      "source_name": "arXiv · AI 与业务工作流",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "research",
-      "evidence_grade": "C",
-      "evidence_score": 70,
-      "evidence_reason": "一手来源；披露量化指标",
-      "summary": "Long-context LLMs can now ingest entire online discussion threads, but understanding their social discourse requires more than reading a long document: models must track parent-reply relations, turning points, scoped subtrees, cross-branch contrasts, and participant trajectories. To test this structure-aware social reasoning, we introduce LongSocialBench, a benchmark of 1,462 verified human-authored multiple-choice items drawn from 94 complete Hacker News, Stack Exchange, and Reddit r/ChangeMyView episodes, with a median length of approximately 73K tokens. Each item pairs a complete serialized",
-      "why_it_matters": "一手来源；披露量化指标",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "论文/技术"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMDQwODd2MQ",
-      "title": "DUET: Co-Evolving Solver and Grader Agents",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.04087v1",
-      "published_at": "2026-10-02T21:51:26Z",
-      "source_id": "arxiv-enterprise-agent",
-      "source_name": "arXiv · 企业 Agent / 生产部署",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "production",
-      "evidence_grade": "B",
-      "evidence_score": 82,
-      "evidence_reason": "一手来源；进入生产或真实流量；场景或采用方明确",
-      "summary": "Agentic workflows are increasingly used across domains such as technology, finance, and enterprise operations. As these agents become more widely deployed, continually improving them becomes increasingly important. This raises an immediate challenge: How should the agent evolve? This evolution requires effective evaluation that can assess outcomes and provide useful feedback for optimization. As the agent evolves, its behaviors and failure modes may also change, making a fixed evaluator increasingly inadequate. Another fundamental question: How should we evaluate an evolving agent? These two c",
-      "why_it_matters": "一手来源；进入生产或真实流量；场景或采用方明确",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "生产部署"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMDY5MTR2MQ",
-      "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.06914v1",
-      "published_at": "2026-10-02T18:24:31Z",
-      "source_id": "arxiv-enterprise-agent",
-      "source_name": "arXiv · 企业 Agent / 生产部署",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "research",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源；场景或采用方明确",
-      "summary": "Text2Dashboard is a DataBrain-specific prototype that turns natural-language analytic requests into inspectable dashboards. An installable Codex plugin and standalone Agent Runtime combine schema-constrained model decisions with typed tools, persistent state, and deterministic Hooks for approval, audit, checkpointing, recovery, and failure handling. The pipeline resolves entities, discovers metadata, enforces read-only SQL, composes dashboards, and applies static checks, dynamic preflight, and browser inspection. The model proposes actions while deterministic software controls execution and re",
-      "why_it_matters": "一手来源；场景或采用方明确",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "论文/技术"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3ByYWN0aWNhbC1ndWlkZS1idWlsZGluZy1ncHQtNg",
-      "title": "A model guide for the GPT-6 family",
-      "title_zh": "",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "published_at": "2026-10-02T16:15:00.000Z",
-      "source_id": "openai-news",
-      "source_name": "OpenAI News",
-      "source_type": "product_update",
-      "primary_source": true,
-      "stage": "production",
-      "evidence_grade": "C",
-      "evidence_score": 69,
-      "evidence_reason": "一手来源；进入生产或真实流量",
-      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "why_it_matters": "一手来源；进入生产或真实流量",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "生产部署"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL3N3ZWVwLXRob3VzYW5kcy1vZi1sZWFzZXMtZm9yLWNvbXBsaWFuY2UtdXNpbmctYW1hem9uLXF1aWNrLWFuZC10aGUtYWRqdWRpY2F0ZWQtcXVlcnktcGF0dGVybg",
-      "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
-      "title_zh": "",
-      "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern",
-      "published_at": "2026-10-02T15:48:26.000Z",
-      "source_id": "aws-ml-blog",
-      "source_name": "AWS ML Blog",
-      "source_type": "product_update",
-      "primary_source": true,
-      "stage": "product",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": "The Adjudicated Query pattern pairs the Amazon Quick chat agent with a bounded MCP server over a deterministic rules engine to deliver provably complete, defensible compliance answers. This post walks through the reference architecture and a deployable AWS CDK sample, using lease compliance as the running example.",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "产品发布"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2FkZC1zZWN1cmUtd2ViLXNlYXJjaC10by1jbGF1ZGUtZGVza3RvcC13aXRoLWFtYXpvbi1iZWRyb2NrLWFnZW50Y29yZQ",
-      "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
-      "title_zh": "",
-      "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore",
-      "published_at": "2026-10-02T15:46:05.000Z",
-      "source_id": "aws-ml-blog",
-      "source_name": "AWS ML Blog",
-      "source_type": "product_update",
-      "primary_source": true,
-      "stage": "product",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": "Claude Desktop on Amazon Bedrock is limited to the model's knowledge cutoff without web search. In this post, we walk through connecting Claude Desktop to Web Search using Amazon Bedrock AgentCore Gateway, with JWT-based inbound authentication through AWS IAM Identity Center and Amazon Cognito.",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "产品发布"
       ],
       "ai_analyzed": false
     }
