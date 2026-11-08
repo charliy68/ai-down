@@ -1,21 +1,21 @@
 {
   "meta": {
     "name": "AI快讯雷达",
-    "generated_at": "2026-11-07T03:05:24.362Z",
+    "generated_at": "2026-11-08T02:40:34.752Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
-    "raw_count": 166,
-    "shortlisted_count": 62,
-    "inserted_count": 40,
+    "raw_count": 136,
+    "shortlisted_count": 39,
+    "inserted_count": 39,
     "total_items": 500,
     "strong_items": 32,
-    "paper_items": 282,
-    "source_success": 8,
+    "paper_items": 281,
+    "source_success": 7,
     "source_attempted": 8,
-    "duration_seconds": 90.5
+    "duration_seconds": 91.1
   },
   "brief": {
     "headline": "生产信号集中在「通用企业工作流」",
@@ -26,12 +26,12 @@
     {
       "key": "research",
       "label": "论文/技术",
-      "count": 274
+      "count": 273
     },
     {
       "key": "product",
       "label": "产品发布",
-      "count": 171
+      "count": 173
     },
     {
       "key": "pilot",
@@ -46,7 +46,7 @@
     {
       "key": "scale",
       "label": "规模化",
-      "count": 10
+      "count": 9
     }
   ],
   "trends": [],
@@ -1998,6 +1998,90 @@
       "evidence_score": 67,
       "evidence_reason": "一手来源",
       "summary": "Learn how to configure Amazon Bedrock AgentCore Gateway for an on-behalf-of (OBO) token exchange with Microsoft Entra ID, so an AI agent can call the ServiceNow REST API while preserving the calling user's identity. AgentCore Gateway performs the exchange natively, with no interceptor Lambda or custom code.",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2hvdy1nZW4tZGlnaXRhbC1idWlsdC1ub3J0b24tcmV2YW1wcy1haS1jdXJhdGVkLW5ld3MtZW5naW5lLXdpdGgtYW1hem9uLWJlZHJvY2stYWdlbnRjb3JlLXdlYi1zZWFyY2g",
+      "title": "How Gen Digital built Norton Revamp’s AI-curated News Engine with Amazon Bedrock AgentCore Web Search",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-gen-digital-built-norton-revamps-ai-curated-news-engine-with-amazon-bedrock-agentcore-web-search",
+      "published_at": "2026-11-03T16:43:20.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Gen Digital built Norton Revamp, a generative AI-powered professional reputation management platform, with an AI-curated News Engine grounded by Web Search on Amazon Bedrock AgentCore. See how the Gen team delivers real-time, cited content suggestions, goal setting, and news feeds with zero data egress and Norton-grade privacy.",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2J1aWxkLWEtc2VtYW50aWMtbGF5ZXItZm9yLWFnZW50aWMtYWktd2l0aC1lZGItcG9zdGdyZXMtYWktYW5kLWFtYXpvbi1iZWRyb2NrLWFnZW50Y29yZQ",
+      "title": "Build a semantic layer for agentic AI with EDB Postgres AI and Amazon Bedrock AgentCore",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-with-edb-postgres-ai-and-amazon-bedrock-agentcore",
+      "published_at": "2026-11-03T16:41:13.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Learn how to build a governed semantic layer for agentic AI inside EDB Postgres AI and query it from a Strands Agents agent on Amazon Bedrock AgentCore. Business meaning, join paths, and access control all live in Postgres, with GRANT and row-level security enforcing what each agent can read.",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2J1aWxkaW5nLXVsdHJhLWxvdy1sYXRlbmN5LXZvaWNlLWFpLWFwcGxpY2F0aW9ucy1vbi1hd3M",
+      "title": "Building ultra-low-latency voice AI applications on AWS",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-ultra-low-latency-voice-ai-applications-on-aws",
+      "published_at": "2026-11-03T16:40:54.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Learn how Cartesia, an AWS Partner, uses purpose-built State Space Models and AWS infrastructure to deliver sub-100ms text-to-speech and speech-to-text at global scale, and how to deploy its Sonic model on Amazon SageMaker AI or self-managed Amazon EC2 GPU instances.",
       "why_it_matters": "一手来源",
       "method": "",
       "result": "",
@@ -13966,90 +14050,6 @@
         "论文/技术"
       ],
       "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2ljeW1pLXdoYXQtbGFuZGVkLWZvci1haS1idWlsZGVycy1pbi1zZXB0ZW1iZXItMjAyNg",
-      "title": "ICYMI: What landed for AI builders in September 2026",
-      "title_zh": "",
-      "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026",
-      "published_at": "2026-10-09T15:38:39.000Z",
-      "source_id": "aws-ml-blog",
-      "source_name": "AWS ML Blog",
-      "source_type": "product_update",
-      "primary_source": true,
-      "stage": "product",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源；场景或采用方明确",
-      "summary": "A monthly recap of the latest Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from September 2026: broader model choice, faster serverless agents with built-in evaluation, and automated knowledge base syncing with native enterprise connectors.",
-      "why_it_matters": "一手来源；场景或采用方明确",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "产品发布"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL2hvdy1wb3N0bWFuLXJ1bnMtYWdlbnQtbW9kZS1mb3ItNDAtbWlsbGlvbi1kZXZlbG9wZXJzLW9uLWFtYXpvbi1iZWRyb2Nr",
-      "title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
-      "title_zh": "",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock",
-      "published_at": "2026-10-09T15:35:02.000Z",
-      "source_id": "aws-ml-blog",
-      "source_name": "AWS ML Blog",
-      "source_type": "product_update",
-      "primary_source": true,
-      "stage": "scale",
-      "evidence_grade": "C",
-      "evidence_score": 73,
-      "evidence_reason": "一手来源；披露量化指标；规模化信号",
-      "summary": "Building an AI agent that works in a demo is a different problem from running one for 40 million developers. Postman and AWS share the architectural patterns behind Agent Mode: controlling tool sprawl, exposing schema-based reads, and treating context as the real bottleneck, plus how it runs on Amazon Bedrock at scale.",
-      "why_it_matters": "一手来源；披露量化指标；规模化信号",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "规模化"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMTM2MzJ2MQ",
-      "title": "Humanize Olympiad Agents: A Multi-Session Workflow for Olympiad Problem Solving with Solve, Review, Wiki, Verify",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.13632v1",
-      "published_at": "2026-10-09T14:14:14Z",
-      "source_id": "arxiv-ai-workflow",
-      "source_name": "arXiv · AI 与业务工作流",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "research",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": "Large language model (LLM) agents are rapidly improving on long-horizon scientific and olympiad tasks. Recent systems have produced a Lean-formalized resolution of the Navier--Stokes problem and autonomous solutions to four open questions in the Erdős Conjectures database. Yet neither system releases both its underlying model and complete inference stack. More broadly, a single agent session remains brittle on difficult problems: early errors can propagate, missing domain knowledge can stall progress, and apparent success can mask a misinterpretation or weakening of the original task. We intro",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "论文/技术"
-      ],
-      "ai_analyzed": false
     }
   ],
   "sources": [
@@ -14076,9 +14076,9 @@
       "name": "GitHub · 活跃 AI Agent 项目",
       "source_type": "agent_project",
       "primary": true,
-      "status": "ok",
-      "count": 30,
-      "error": ""
+      "status": "error",
+      "count": 0,
+      "error": "Error: HTTP 403 https://api.github.com/search/repositories?q=topic%3Aai-agent%20topic%3Allm%20pushed%3A%3E2026-08-01&sort=stars&order=desc&per_page=30"
     },
     {
       "id": "github-agent-releases",
