@@ -1,25 +1,25 @@
 {
   "meta": {
     "name": "AI快讯雷达",
-    "generated_at": "2026-11-08T02:40:34.752Z",
+    "generated_at": "2026-11-09T02:56:04.684Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
-    "raw_count": 136,
-    "shortlisted_count": 39,
-    "inserted_count": 39,
+    "raw_count": 166,
+    "shortlisted_count": 42,
+    "inserted_count": 40,
     "total_items": 500,
-    "strong_items": 32,
+    "strong_items": 31,
     "paper_items": 281,
-    "source_success": 7,
+    "source_success": 8,
     "source_attempted": 8,
-    "duration_seconds": 91.1
+    "duration_seconds": 87.1
   },
   "brief": {
     "headline": "生产信号集中在「通用企业工作流」",
-    "summary": "本期有 32 条生产或规模化信号达到 A/B 级。",
+    "summary": "本期有 31 条生产或规模化信号达到 A/B 级。",
     "themes": []
   },
   "stages": [
@@ -51,6 +51,34 @@
   ],
   "trends": [],
   "items": [
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL2NyZXdBSUluYy9jcmV3QUkvcmVsZWFzZXMvdGFnLzEuMTUuMzk",
+      "title": "crewAIInc/crewAI 1.15.39",
+      "title_zh": "",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.39",
+      "published_at": "2026-11-09T01:07:14Z",
+      "source_id": "github-agent-releases",
+      "source_name": "GitHub · Agent 框架版本发布",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": " What's Changed Documentation - Document the apps_not_connected error on /kickoff and /status Contributors @joaomdmoura",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2NyZXdBSUluYy9jcmV3QUkvcmVsZWFzZXMvdGFnLzEuMTUuMzc",
       "title": "crewAIInc/crewAI 1.15.37",
@@ -332,6 +360,34 @@
       "ai_analyzed": false
     },
     {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTEuMDg5NDd2MQ",
+      "title": "More with Less: Efficient Parallel Scientific Code Translation via an Agent-Skill Workflow",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2611.08947v1",
+      "published_at": "2026-11-06T03:54:22Z",
+      "source_id": "arxiv-ai-workflow",
+      "source_name": "arXiv · AI 与业务工作流",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Translating parallel scientific codes between HPC programming frameworks is a critical but labor-intensive task. Existing LLM-based approaches rely on fixed sequential pipelines with undifferentiated repair strategies and correctness criteria that do not match scientific computing practice. We present an agent-skill framework that separates translation, compilation diagnosis, and execution validation into three autonomous agents coordinated by a verdict-driven orchestrator, routing each failure to a targeted repair skill rather than retrying blindly. An automated output check drives the self-c",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2xhbmdjaGFpbi1haS9sYW5nZ3JhcGgvcmVsZWFzZXMvdGFnL3NkayUzRCUzRDAuNC4xNA",
       "title": "langchain-ai/langgraph sdk==0.4.14",
       "title_zh": "",
@@ -356,6 +412,34 @@
       "opportunity": "",
       "topics": [
         "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTEuMDg4NjR2MQ",
+      "title": "Adaptive Scheduling Pipeline for Multi-Instance Asynchronous Reinforcement Learning",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2611.08864v1",
+      "published_at": "2026-11-06T01:47:52Z",
+      "source_id": "arxiv-ai-workflow",
+      "source_name": "arXiv · AI 与业务工作流",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "production",
+      "evidence_grade": "C",
+      "evidence_score": 69,
+      "evidence_reason": "一手来源；进入生产或真实流量",
+      "summary": "We present the Adaptive Scheduling Pipeline (ASP), an offline rollout scheduler for multi-instance asynchronous reinforcement learning (RL) of large language models (LLMs). ASP jointly reduces three sources of rollout underutilization - padding bubbles from intra-minibatch length heterogeneity, skewness bubbles from long-tail outputs, and sorting bubbles from fluctuations in training-queue occupancy induced by length-sorted dispatch - through a single offline preprocessing pass. This enables efficient multi-instance rollout that overcomes the early scaling plateau of single-instance inference ",
+      "why_it_matters": "一手来源；进入生产或真实流量",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "生产部署"
       ],
       "ai_analyzed": false
     },
@@ -412,6 +496,34 @@
       "opportunity": "",
       "topics": [
         "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTEuMDg2OTd2MQ",
+      "title": "CPU Micro-Architectural Characteristic Sensitivity Study on CPU-Side Agentic Task Latency",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2611.08697v1",
+      "published_at": "2026-11-05T20:53:53Z",
+      "source_id": "arxiv-enterprise-agent",
+      "source_name": "arXiv · 企业 Agent / 生产部署",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "B",
+      "evidence_score": 80,
+      "evidence_reason": "一手来源；场景或采用方明确",
+      "summary": "We perform a novel study of CPU micro-architectural characteristics on how they affect agentic AI CPU side latency. Small enterprises and individual users looking to reduce costs and seeking data privacy benefit from running agents locally, motivating an investigation into the optimal performance characteristics of an edge CPU to improve user experience. We investigate the relationship between CPU core frequency, CPU uncore frequency, active physical cores, and symmetric multi threading with agentic task latency in single and multi agent configurations. Across eight experiments on an Intel edg",
+      "why_it_matters": "一手来源；场景或采用方明确",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
       ],
       "ai_analyzed": false
     },
@@ -496,6 +608,34 @@
       "opportunity": "",
       "topics": [
         "规模化"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTEuMDg1NjZ2MQ",
+      "title": "CascadeRec: Deployed Adaptive LLM Compute Allocation for Multi-Tenant Content Recommendation",
+      "title_zh": "",
+      "url": "https://arxiv.org/abs/2611.08566v1",
+      "published_at": "2026-11-05T17:30:58Z",
+      "source_id": "arxiv-ai-workflow",
+      "source_name": "arXiv · AI 与业务工作流",
+      "source_type": "paper",
+      "primary_source": true,
+      "stage": "production",
+      "evidence_grade": "C",
+      "evidence_score": 69,
+      "evidence_reason": "一手来源；进入生产或真实流量；场景或采用方明确",
+      "summary": "Large language models (LLMs) are attractive rerankers for recommendation. Running an expensive model on every request is costly, and for users with sparse interaction histories it often lowers quality. We present CascadeRec, a two-tier LLM reranking cascade deployed in production at a large financial planning and analysis (FP&A) SaaS provider. It serves content recommendations to enterprise tenants on AWS EKS and GKE. A lightweight Tier-1 model reranks every request. A router escalates only the requests where extra inference-time compute is likely to help, and sends them to a more expensive Ti",
+      "why_it_matters": "一手来源；进入生产或真实流量；场景或采用方明确",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "生产部署"
       ],
       "ai_analyzed": false
     },
@@ -13910,146 +14050,6 @@
         "论文/技术"
       ],
       "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMTQ1NzZ2MQ",
-      "title": "Iterate on an LLM, Serve on an SLM",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.14576v1",
-      "published_at": "2026-10-10T04:51:24Z",
-      "source_id": "arxiv-enterprise-agent",
-      "source_name": "arXiv · 企业 Agent / 生产部署",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "production",
-      "evidence_grade": "C",
-      "evidence_score": 69,
-      "evidence_reason": "一手来源；进入生产或真实流量",
-      "summary": "As frontier LLMs gain more capabilities, the cost to run them also goes up. At the same time, small language models (SLMs) also gain more capabilities but have largely been able to keep their cost stable, offering 5-40 times cheaper inference for the narrow, repetitive subtasks that agents decompose work into. However, the standing limiting factor is getting the correct behavior out of a small model in a fast, efficient, and economical way. Unfortunately, in most cases, zero-shot small models fail narrow production tasks. Furthermore, retraining one every time the behavior changes is too slow ",
-      "why_it_matters": "一手来源；进入生产或真实流量",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "生产部署"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMTQ0Mjh2MQ",
-      "title": "Frustratingly Easy Agentic RAG via Portable Skills: A Case Study in Customer Support",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.14428v1",
-      "published_at": "2026-10-10T00:49:01Z",
-      "source_id": "arxiv-enterprise-agent",
-      "source_name": "arXiv · 企业 Agent / 生产部署",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "production",
-      "evidence_grade": "C",
-      "evidence_score": 69,
-      "evidence_reason": "一手来源；进入生产或真实流量；场景或采用方明确",
-      "summary": "Enterprise workflow automation typically requires retrieving a complete and accurate set of relevant information from large operational document corpora (SOPs, policy documents) given a specific scenario or request. In customer support (CS), for example, human specialists must determine the correct sequence of resolution steps for each case, a task that demands precise grounding in policy documentation. Meeting this bar in production typically requires complex document chunking, indexing, and retrieval pipelines, often layered with learned re-rankers, query rewriters, and bespoke agentic RAG i",
-      "why_it_matters": "一手来源；进入生产或真实流量；场景或采用方明确",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "生产部署"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9naXRodWIuY29tL2NyZXdBSUluYy9jcmV3QUkvcmVsZWFzZXMvdGFnLzEuMTUuMjc",
-      "title": "crewAIInc/crewAI 1.15.27",
-      "title_zh": "",
-      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.27",
-      "published_at": "2026-10-09T22:33:44Z",
-      "source_id": "github-agent-releases",
-      "source_name": "GitHub · Agent 框架版本发布",
-      "source_type": "product_update",
-      "primary_source": true,
-      "stage": "product",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": " What's Changed Features - Add XPU to OpenCLIP provider device options - Add deepinfra as an OpenAI-compatible provider - Record why an evaluation stopped before its verdict - Record what the run app's Deploy met before an attempt - Implement per-run cost and time tracking in crewai eval --models without repeated progress lines Bug Fixes - Fix issue where stopSequences were sent to OpenAI GPT-6/GPT-5.6/gpt-oss - Preserve GitHub loader source attribution - Fix SQLite flow initialization contention Documentation - Add snapshot and changelog for v1.15.26 Contributors @StoyanD, @ats3v, @joaomdmour",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "产品发布"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMTQzNDZ2Mg",
-      "title": "Evaluating LLMs as Agentic Workflow Executors in Real-World Customer Support Skills",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.14346v2",
-      "published_at": "2026-10-09T21:45:51Z",
-      "source_id": "arxiv-enterprise-agent",
-      "source_name": "arXiv · 企业 Agent / 生产部署",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "research",
-      "evidence_grade": "B",
-      "evidence_score": 80,
-      "evidence_reason": "一手来源；场景或采用方明确",
-      "summary": "Enterprise customer-support agents increasingly rely on Large Language Models (LLMs) to execute bounded, tool-using workflows. We study this problem through the lens of Skill LLMs: specialized executors that operate within a selected skill context and must complete a narrow, stateful workflow under policy and tool constraints. We present a benchmark construction pipeline that mines recurrent workflows from real-world transcripts, converts them into structured skill descriptions, maps them to tool requirements, simulates environment state with Model Context Protocol (MCP)-compatible mocks, and ",
-      "why_it_matters": "一手来源；场景或采用方明确",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "论文/技术"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMTQzNDZ2MQ",
-      "title": "Evaluating LLMs as Agentic Workflow Executors in Real-World Customer Support Skills",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.14346v1",
-      "published_at": "2026-10-09T21:45:51Z",
-      "source_id": "arxiv-enterprise-agent",
-      "source_name": "arXiv · 企业 Agent / 生产部署",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "research",
-      "evidence_grade": "B",
-      "evidence_score": 80,
-      "evidence_reason": "一手来源；场景或采用方明确",
-      "summary": "Enterprise customer-support agents increasingly rely on Large Language Models (LLMs) to execute bounded, tool-using workflows. We study this problem through the lens of Skill LLMs: specialized executors that operate within a selected skill context and must complete a narrow, stateful workflow under policy and tool constraints. We present a benchmark construction pipeline that mines recurrent workflows from real-world transcripts, converts them into structured skill descriptions, maps them to tool requirements, simulates environment state with Model Context Protocol (MCP)-compatible mocks, and ",
-      "why_it_matters": "一手来源；场景或采用方明确",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "论文/技术"
-      ],
-      "ai_analyzed": false
     }
   ],
   "sources": [
@@ -14076,9 +14076,9 @@
       "name": "GitHub · 活跃 AI Agent 项目",
       "source_type": "agent_project",
       "primary": true,
-      "status": "error",
-      "count": 0,
-      "error": "Error: HTTP 403 https://api.github.com/search/repositories?q=topic%3Aai-agent%20topic%3Allm%20pushed%3A%3E2026-08-01&sort=stars&order=desc&per_page=30"
+      "status": "ok",
+      "count": 30,
+      "error": ""
     },
     {
       "id": "github-agent-releases",
