@@ -1,21 +1,21 @@
 {
   "meta": {
     "name": "AI快讯雷达",
-    "generated_at": "2026-11-21T04:13:49.502Z",
+    "generated_at": "2026-11-22T03:24:23.295Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
-    "raw_count": 166,
-    "shortlisted_count": 53,
-    "inserted_count": 40,
+    "raw_count": 160,
+    "shortlisted_count": 28,
+    "inserted_count": 28,
     "total_items": 500,
     "strong_items": 26,
-    "paper_items": 241,
+    "paper_items": 240,
     "source_success": 8,
     "source_attempted": 8,
-    "duration_seconds": 97.7
+    "duration_seconds": 65.2
   },
   "brief": {
     "headline": "生产信号集中在「通用企业工作流」",
@@ -51,6 +51,62 @@
   ],
   "trends": [],
   "items": [
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL2JvamllbGkvYWktYWdlbnQtYm9vaw",
+      "title": "bojieli/ai-agent-book",
+      "title_zh": "",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "published_at": "2026-11-22T03:16:53Z",
+      "source_id": "github-agent-projects",
+      "source_name": "GitHub · 活跃 AI Agent 项目",
+      "source_type": "agent_project",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 ★59007，最近推送 2026-11-22",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9hd3MuYW1hem9uLmNvbS9ibG9ncy9tYWNoaW5lLWxlYXJuaW5nL21ldGEtYWRzLWlzLW5vdy1hdmFpbGFibGUtaW4tYXdzLXF1aWNr",
+      "title": "Meta ads is now available in AWS Quick",
+      "title_zh": "",
+      "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick",
+      "published_at": "2026-11-22T01:59:13.000Z",
+      "source_id": "aws-ml-blog",
+      "source_name": "AWS ML Blog",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workflows.",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL3hidGxpbi9haS1iZXJrc2hpcmU",
       "title": "xbtlin/ai-berkshire",
@@ -1056,6 +1112,34 @@
       "opportunity": "",
       "topics": [
         "规模化"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL1RlbmNlbnRDbG91ZC9UZW5jZW50REItQWdlbnQtTWVtb3J5",
+      "title": "TencentCloud/TencentDB-Agent-Memory",
+      "title_zh": "",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "published_at": "2026-11-19T12:43:39Z",
+      "source_id": "github-agent-projects",
+      "source_name": "GitHub · 活跃 AI Agent 项目",
+      "source_type": "agent_project",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks. ★31089，最近推送 2026-11-19",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
       ],
       "ai_analyzed": false
     },
@@ -13966,90 +14050,6 @@
         "论文/技术"
       ],
       "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9naXRodWIuY29tL21ha2VjaW5keS9jaW5keQ",
-      "title": "makecindy/cindy",
-      "title_zh": "",
-      "url": "https://github.com/makecindy/cindy",
-      "published_at": "2026-10-27T02:13:34Z",
-      "source_id": "github-agent-projects",
-      "source_name": "GitHub · 活跃 AI Agent 项目",
-      "source_type": "agent_project",
-      "primary_source": true,
-      "stage": "research",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。 ★6576，最近推送 2026-10-27",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "论文/技术"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMzY0MzN2MQ",
-      "title": "LM-DSB: A Lightweight Multi-agent System for Automated Daily Safety Bulletin Generation in Construction",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.36433v1",
-      "published_at": "2026-10-27T00:29:20Z",
-      "source_id": "arxiv-ai-workflow",
-      "source_name": "arXiv · AI 与业务工作流",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "research",
-      "evidence_grade": "C",
-      "evidence_score": 70,
-      "evidence_reason": "一手来源；披露量化指标",
-      "summary": "Construction safety management still struggles to produce daily safety bulletins (DSBs), structured daily communications that identify site-specific hazards, convey safety protocols, and set preventive measures for workers. Manual DSB creation takes 2-3 hours daily and yields inconsistent quality, with 25% of crews never conducting pretask planning (Olson et al., 2016), diverting safety personnel from field supervision. This study proposes the Lightweight Multi-Agent DSB System (LM-DSB), which integrates retrieval-augmented generation (RAG) with a locally deployable Large Language Model (LLM) ",
-      "why_it_matters": "一手来源；披露量化指标",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "论文/技术"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2NoZWNrLXBvaW50LWRheWJyZWFr",
-      "title": "How Check Point accelerates vulnerability research with Daybreak",
-      "title_zh": "",
-      "url": "https://openai.com/index/check-point-daybreak",
-      "published_at": "2026-10-27T00:00:00.000Z",
-      "source_id": "openai-news",
-      "source_name": "OpenAI News",
-      "source_type": "product_update",
-      "primary_source": true,
-      "stage": "product",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源；场景或采用方明确",
-      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-      "why_it_matters": "一手来源；场景或采用方明确",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "产品发布"
-      ],
-      "ai_analyzed": false
     }
   ],
   "sources": [
@@ -14086,7 +14086,7 @@
       "source_type": "product_update",
       "primary": true,
       "status": "ok",
-      "count": 6,
+      "count": 0,
       "error": ""
     },
     {
