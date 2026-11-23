@@ -1,19 +1,19 @@
 {
   "meta": {
     "name": "AI快讯雷达",
-    "generated_at": "2026-11-22T03:24:23.295Z",
+    "generated_at": "2026-11-23T03:56:04.226Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
-    "raw_count": 160,
+    "raw_count": 116,
     "shortlisted_count": 28,
     "inserted_count": 28,
     "total_items": 500,
     "strong_items": 26,
-    "paper_items": 240,
-    "source_success": 8,
+    "paper_items": 239,
+    "source_success": 6,
     "source_attempted": 8,
     "duration_seconds": 65.2
   },
@@ -26,12 +26,12 @@
     {
       "key": "research",
       "label": "论文/技术",
-      "count": 233
+      "count": 232
     },
     {
       "key": "product",
       "label": "产品发布",
-      "count": 210
+      "count": 211
     },
     {
       "key": "pilot",
@@ -51,6 +51,34 @@
   ],
   "trends": [],
   "items": [
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL21ha2VjaW5keS9jaW5keQ",
+      "title": "makecindy/cindy",
+      "title_zh": "",
+      "url": "https://github.com/makecindy/cindy",
+      "published_at": "2026-11-23T03:39:19Z",
+      "source_id": "github-agent-projects",
+      "source_name": "GitHub · 活跃 AI Agent 项目",
+      "source_type": "agent_project",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。 ★10428，最近推送 2026-11-23",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL2JvamllbGkvYWktYWdlbnQtYm9vaw",
       "title": "bojieli/ai-agent-book",
@@ -94,6 +122,34 @@
       "evidence_score": 67,
       "evidence_reason": "一手来源",
       "summary": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workflows.",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "产品发布"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L3BlcnBsZXhpdHktYW5kLWludGVsbGlnZW5jZQ",
+      "title": "Perplexity and Intelligence",
+      "title_zh": "",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "published_at": "2026-11-22T00:00:00.000Z",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "source_type": "product_update",
+      "primary_source": true,
+      "stage": "product",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
       "why_it_matters": "一手来源",
       "method": "",
       "result": "",
@@ -13994,62 +14050,6 @@
         "产品发布"
       ],
       "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTAuMzc3MTZ2MQ",
-      "title": "Generation, Not Selection: LLM Proposals for Certified Access-Control Policy Mining",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2610.37716v1",
-      "published_at": "2026-10-27T05:38:18Z",
-      "source_id": "arxiv-ai-workflow",
-      "source_name": "arXiv · AI 与业务工作流",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "research",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": "Attribute-Based Access Control (ABAC) policy mining---recovering a compact, auditable policy from an access log---is posed as minimum set cover and solved greedily, which enjoys an $s^{*}(1+\\ln m)$ guarantee. That guarantee is \\emph{conditional} on a precondition the literature never states: the candidate pool handed to greedy must contain the optimal rules. Generation, not selection, is the binding constraint, and existing generators are purely \\emph{syntactic}---they surface a rule only when enough log records witness it, so they fail on precisely the rare exception rules that fill a heavy-t",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "论文/技术"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9naXRodWIuY29tL3NoYXJlQUktbGFiL2xlYXJuLWNsYXVkZS1jb2Rl",
-      "title": "shareAI-lab/learn-claude-code",
-      "title_zh": "",
-      "url": "https://github.com/shareAI-lab/learn-claude-code",
-      "published_at": "2026-10-27T04:47:00Z",
-      "source_id": "github-agent-projects",
-      "source_name": "GitHub · 活跃 AI Agent 项目",
-      "source_type": "agent_project",
-      "primary_source": true,
-      "stage": "research",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1 ★79375，最近推送 2026-10-27",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "论文/技术"
-      ],
-      "ai_analyzed": false
     }
   ],
   "sources": [
@@ -14058,18 +14058,18 @@
       "name": "arXiv · 企业 Agent / 生产部署",
       "source_type": "paper",
       "primary": true,
-      "status": "ok",
-      "count": 25,
-      "error": ""
+      "status": "error",
+      "count": 0,
+      "error": "Error: HTTP 429 https://export.arxiv.org/api/query?search_query=all%3A%22enterprise%22%20AND%20all%3A%22agent%22&sortBy=submittedDate&sortOrder=descending&max_results=25"
     },
     {
       "id": "arxiv-ai-workflow",
       "name": "arXiv · AI 与业务工作流",
       "source_type": "paper",
       "primary": true,
-      "status": "ok",
-      "count": 25,
-      "error": ""
+      "status": "error",
+      "count": 0,
+      "error": "Error: HTTP 429 https://export.arxiv.org/api/query?search_query=all%3A%22LLM%22%20AND%20(all%3A%22workflow%22%20OR%20all%3A%22enterprise%22)&sortBy=submittedDate&sortOrder=descending&max_results=25"
     },
     {
       "id": "github-agent-projects",
@@ -14086,7 +14086,7 @@
       "source_type": "product_update",
       "primary": true,
       "status": "ok",
-      "count": 0,
+      "count": 6,
       "error": ""
     },
     {
