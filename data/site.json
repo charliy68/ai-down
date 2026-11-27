@@ -1,21 +1,21 @@
 {
   "meta": {
     "name": "AI快讯雷达",
-    "generated_at": "2026-11-26T05:22:34.094Z",
+    "generated_at": "2026-11-27T05:17:22.213Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
     "raw_count": 166,
-    "shortlisted_count": 37,
-    "inserted_count": 37,
+    "shortlisted_count": 27,
+    "inserted_count": 27,
     "total_items": 500,
     "strong_items": 26,
-    "paper_items": 261,
+    "paper_items": 259,
     "source_success": 8,
     "source_attempted": 8,
-    "duration_seconds": 94.9
+    "duration_seconds": 65.5
   },
   "brief": {
     "headline": "生产信号集中在「通用企业工作流」",
@@ -26,7 +26,7 @@
     {
       "key": "research",
       "label": "论文/技术",
-      "count": 248
+      "count": 249
     },
     {
       "key": "product",
@@ -41,7 +41,7 @@
     {
       "key": "production",
       "label": "生产部署",
-      "count": 40
+      "count": 39
     },
     {
       "key": "scale",
@@ -51,6 +51,62 @@
   ],
   "trends": [],
   "items": [
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tLzFqZWh1YW5nL2pjb2Rl",
+      "title": "1jehuang/jcode",
+      "title_zh": "",
+      "url": "https://github.com/1jehuang/jcode",
+      "published_at": "2026-11-27T03:26:54Z",
+      "source_id": "github-agent-projects",
+      "source_name": "GitHub · 活跃 AI Agent 项目",
+      "source_type": "agent_project",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "High performance coding agent harness written in Rust, built for heavy multi-agent dev workflows ★22082，最近推送 2026-11-27",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL2UyYi1kZXYvRTJC",
+      "title": "e2b-dev/E2B",
+      "title_zh": "",
+      "url": "https://github.com/e2b-dev/E2B",
+      "published_at": "2026-11-27T02:12:43Z",
+      "source_id": "github-agent-projects",
+      "source_name": "GitHub · 活跃 AI Agent 项目",
+      "source_type": "agent_project",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源；场景或采用方明确",
+      "summary": "Open-source, secure environment with real-world tools for enterprise-grade agents. ★15033，最近推送 2026-11-27",
+      "why_it_matters": "一手来源；场景或采用方明确",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tL29tbmlnZW50LWFpL29tbmlnZW50",
       "title": "omnigent-ai/omnigent",
@@ -11028,6 +11084,34 @@
       "ai_analyzed": false
     },
     {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL2Fkb25nd2FuYWkvQWdlbnRHdWlkZQ",
+      "title": "adongwanai/AgentGuide",
+      "title_zh": "",
+      "url": "https://github.com/adongwanai/AgentGuide",
+      "published_at": "2026-11-05T09:57:16Z",
+      "source_id": "github-agent-projects",
+      "source_name": "GitHub · 活跃 AI Agent 项目",
+      "source_type": "agent_project",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 70,
+      "evidence_reason": "一手来源；披露量化指标",
+      "summary": "AI Agent 开发指南 | Agent Harness | 上下文工程 | 高级 RAG | MCP | Agentic RL 强化学习 | LangGraph 实战 | 1.2 万+ 大模型面试题 | 算法岗 / 开发岗求职 | 转行大模型 ★12300，最近推送 2026-11-05",
+      "why_it_matters": "一手来源；披露量化指标",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
+    {
       "id": "aHR0cHM6Ly9vcGVuYWkuY29tL2luZGV4L2ludHJvZHVjaW5nLWdwdC02LWN5YmVy",
       "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
       "title_zh": "",
@@ -13964,90 +14048,6 @@
       "opportunity": "",
       "topics": [
         "生产部署"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTEuMDA5Njd2MQ",
-      "title": "RTP-LLM: Building an Evolvable and Reliable LLM Inference Engine at Alibaba Scale",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2611.00967v1",
-      "published_at": "2026-10-31T14:10:54Z",
-      "source_id": "arxiv-ai-workflow",
-      "source_name": "arXiv · AI 与业务工作流",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "production",
-      "evidence_grade": "C",
-      "evidence_score": 69,
-      "evidence_reason": "一手来源；进入生产或真实流量",
-      "summary": "Large language models and inference techniques evolve rapidly, making model enablement a recurring production task rather than a one-time integration effort. At Alibaba, a shared inference infrastructure must keep pace with new models and serving capabilities while remaining reliable across heterogeneous production environments. To reconcile rapid evolution with production reliability, we present RTP-LLM, an open-source production inference engine developed and deployed at Alibaba. Its architecture separates model-specific execution from shared request processing, state management, and resourc",
-      "why_it_matters": "一手来源；进入生产或真实流量",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "生产部署"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTEuMDA5MjN2MQ",
-      "title": "Illusion: Safeguarding Topology Confidentiality in LLM Multi-Agent Systems via Behavior-Preserving Obfuscation",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2611.00923v1",
-      "published_at": "2026-10-31T13:23:42Z",
-      "source_id": "arxiv-ai-workflow",
-      "source_name": "arXiv · AI 与业务工作流",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "research",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": "The communication topology of Large Language Model Multi-Agent Systems (LLM-MASs) governs how information propagates among agents and encodes critical domain knowledge and expert workflow design. It is valuable intellectual property and plays a decisive role in system utility and safety, yet remains vulnerable to inference attacks that stealthily reconstruct it from agent outputs. Existing defenses detect or mitigate such attacks but do not proactively conceal the topology itself. We propose \\textit{Illusion}, a proactive topology obfuscation defense for LLM-MAS. \\textit{Illusion} injects fake",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "论文/技术"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9naXRodWIuY29tL3poYXl1amllL0Nvd0FnZW50",
-      "title": "zhayujie/CowAgent",
-      "title_zh": "",
-      "url": "https://github.com/zhayujie/CowAgent",
-      "published_at": "2026-10-31T11:20:13Z",
-      "source_id": "github-agent-projects",
-      "source_name": "GitHub · 活跃 AI Agent 项目",
-      "source_type": "agent_project",
-      "primary_source": true,
-      "stage": "research",
-      "evidence_grade": "C",
-      "evidence_score": 67,
-      "evidence_reason": "一手来源",
-      "summary": "Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install. ★47720，最近推送 2026-10-31",
-      "why_it_matters": "一手来源",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "论文/技术"
       ],
       "ai_analyzed": false
     }
