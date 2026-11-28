@@ -1,21 +1,21 @@
 {
   "meta": {
     "name": "AI快讯雷达",
-    "generated_at": "2026-11-27T05:17:22.213Z",
+    "generated_at": "2026-11-28T04:54:44.948Z",
     "timezone": "Asia/Shanghai",
     "site_url": "https://radar.yuedu.biz",
     "schedule": "07:30",
     "health": "ok",
     "stale_after_hours": 30,
     "raw_count": 166,
-    "shortlisted_count": 27,
-    "inserted_count": 27,
+    "shortlisted_count": 25,
+    "inserted_count": 25,
     "total_items": 500,
     "strong_items": 26,
-    "paper_items": 259,
+    "paper_items": 258,
     "source_success": 8,
     "source_attempted": 8,
-    "duration_seconds": 65.5
+    "duration_seconds": 69.4
   },
   "brief": {
     "headline": "生产信号集中在「通用企业工作流」",
@@ -26,7 +26,7 @@
     {
       "key": "research",
       "label": "论文/技术",
-      "count": 249
+      "count": 250
     },
     {
       "key": "product",
@@ -41,7 +41,7 @@
     {
       "key": "production",
       "label": "生产部署",
-      "count": 39
+      "count": 38
     },
     {
       "key": "scale",
@@ -51,6 +51,34 @@
   ],
   "trends": [],
   "items": [
+    {
+      "id": "aHR0cHM6Ly9naXRodWIuY29tL3poYXl1amllL0Nvd0FnZW50",
+      "title": "zhayujie/CowAgent",
+      "title_zh": "",
+      "url": "https://github.com/zhayujie/CowAgent",
+      "published_at": "2026-11-27T11:09:50Z",
+      "source_id": "github-agent-projects",
+      "source_name": "GitHub · 活跃 AI Agent 项目",
+      "source_type": "agent_project",
+      "primary_source": true,
+      "stage": "research",
+      "evidence_grade": "C",
+      "evidence_score": 67,
+      "evidence_reason": "一手来源",
+      "summary": "Open-source personal AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install. ★48118，最近推送 2026-11-27",
+      "why_it_matters": "一手来源",
+      "method": "",
+      "result": "",
+      "sector": "跨行业",
+      "workflow": "",
+      "metric": "",
+      "metric_label": "",
+      "opportunity": "",
+      "topics": [
+        "论文/技术"
+      ],
+      "ai_analyzed": false
+    },
     {
       "id": "aHR0cHM6Ly9naXRodWIuY29tLzFqZWh1YW5nL2pjb2Rl",
       "title": "1jehuang/jcode",
@@ -14020,34 +14048,6 @@
       "opportunity": "",
       "topics": [
         "论文/技术"
-      ],
-      "ai_analyzed": false
-    },
-    {
-      "id": "aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI2MTEuMDEwNDJ2MQ",
-      "title": "Constraint Dependency Graph Retrieval for Compliance Detection on Long SKILL Documents",
-      "title_zh": "",
-      "url": "https://arxiv.org/abs/2611.01042v1",
-      "published_at": "2026-10-31T15:31:27Z",
-      "source_id": "arxiv-enterprise-agent",
-      "source_name": "arXiv · 企业 Agent / 生产部署",
-      "source_type": "paper",
-      "primary_source": true,
-      "stage": "production",
-      "evidence_grade": "C",
-      "evidence_score": 69,
-      "evidence_reason": "一手来源；进入生产或真实流量；场景或采用方明确",
-      "summary": "Large Language Model (LLM) agents carry out business operations under enterprise documents we refer to as SKILL documents, which take the form of standard operating procedures (SOPs) that state the conditions to verify and the actions to take before an operation proceeds. Long, densely cross-referenced SKILL documents exceed the context budget of small deployed auditors. Similarity-based retrieval then brings in irrelevant rules while omitting mandatory prerequisites, and the two-stage audit policy provides no trainable signal for the retrieval stage. We present SkillCDG, a compliance detectio",
-      "why_it_matters": "一手来源；进入生产或真实流量；场景或采用方明确",
-      "method": "",
-      "result": "",
-      "sector": "跨行业",
-      "workflow": "",
-      "metric": "",
-      "metric_label": "",
-      "opportunity": "",
-      "topics": [
-        "生产部署"
       ],
       "ai_analyzed": false
     }
